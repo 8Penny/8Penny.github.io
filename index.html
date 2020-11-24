@@ -1,4 +1,6 @@
- <!-------------------------------------------- 
+
+
+<!DOCTYPE html><script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="https://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=b9f848c06fcba7eaf305d4a7cb7a1b98"></script><!-------------------------------------------- 
             SCOTTISBAE's THEMES #195
             THEME BY: http://scottisbae.tumblr.com/
 
@@ -25,14 +27,14 @@
 --------------------------------------------->
 
 <!DOCTYPE html>
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{block:PostSummary}{PostSummary} : {/block:PostSummary}{Title}</title>
+<title>THEMES</title>
 
-<link rel="shortcut icon" href="{favicon}">
-<link rel="alternate" type="application/rss+xml" href="{RSS}">
-{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+<style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}</style><style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}</style><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/client/prod/standalone/blog-network-npf/index.build.css?_v=46a7a9e1e08f1b33790dea4bb521d1c8"><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/client/prod/standalone/blog-network-npf/index.build.css?_v=3fc451676906e0ce74d518ae00bb3233"><link rel="shortcut icon" href="https://66.media.tumblr.com/avatar_35ccf6fa7fb3_128.pnj">
+<link rel="alternate" type="application/rss+xml" href="http://britishrobertty.tumblr.com/rss">
+<meta name="description" content="lorem ipsum consectetuer mattis porta urna, adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna." />
 
 
 
@@ -107,7 +109,6 @@
 <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:400,700|Muli:400,400i,700,700i" rel="stylesheet">
 
 <link href="//solrainha.github.io/saturnicons/saturnicons.css" rel="stylesheet">
-
 <link href="//solrainha.github.io/honeybee/honeybee.css" rel="stylesheet">
 
 
@@ -180,7 +181,7 @@ $(document).ready(function() {
 $(document).ready(function(){
    $('.search').submit(function(event){
        var value = $('input:first').val();
-       location.replace('http://{Name}.tumblr.com/tagged/' + value);
+       location.replace('http://britishrobertty.tumblr.com/tagged/' + value);
    });
 });
 </script>
@@ -189,7 +190,7 @@ $(document).ready(function(){
 
 
 <!----- caption unnest ----> 
-{block:ifShowUnnestCaptions}
+
 <script>
 $(document).ready(function(){  $('.posts').unnest({ 
     yourCaption: ".caption",
@@ -203,7 +204,7 @@ $(document).ready(function(){  $('.posts').unnest({
 
 }); </script>
 
-{/block:ifShowUnnestCaptions}
+
 <!----- caption unnest ---->
 
 
@@ -218,15 +219,15 @@ $(document).ready(function(){  $('.posts').unnest({
    height:7px;
 }
 ::-webkit-scrollbar {
-   background-color:{color:Background};
+   background-color:#ffffff;
 }
 ::-webkit-scrollbar-track {
-   border:8px solid {color:Background};
-   background-color:{color:Background};
+   border:8px solid #ffffff;
+   background-color:#ffffff;
 }
 ::-webkit-scrollbar-thumb {
-   border:3px solid {color:Background};
-   background-color:{color:Scrollbar};
+   border:3px solid #ffffff;
+   background-color:#d5d5d5;
    min-height:24px;
    min-width:24px;
 }
@@ -242,11 +243,11 @@ $(document).ready(function(){  $('.posts').unnest({
 }
  
 .ui-tooltip-content {
-    background:{color:background};
+    background:#ffffff;
     padding:5px;
-    color:{color:Text};
+    color:#252525;
     text-transform:lowercase;
-    border-bottom:1px solid {color:borders};
+    border-bottom:1px solid #EBEBF6;
 }
 
 
@@ -254,107 +255,61 @@ $(document).ready(function(){  $('.posts').unnest({
 
 /*     captions     */ 
 
-{block:ifShowUnnestCaptions}
+
 
 /* to style the reblogged urls */
 .tumblr_blog {
-    color:{color:Link};
-    vertical-align:bottom;
+    vertical-align:top;
     font-style: none;
     font-weight:bold;
+    color:#a7a7a7!important;
     font-size: 8px;
     text-transform:uppercase;
     letter-spacing:1.5px;
+    color:#252525;
     }
     
 
 .tumblr_blog a {
-    color:{color:Link};
+    color:#252525;
 }
     
 .tumblr_blog a:hover {
     text-decoration:none;
-    color:{color:Link Hover};
+    color:#aaaaaa;
 }
 
 
 
 
-.cap {    
-    margin: 0px 0px 5px;
-    {block:ifShow540pxposts}
+.cap {
+    margin-left:0px;
+    
     width:540px;
-    {/block:ifShow540pxposts}
-    {block:ifShow500pxposts}
-    width:500px;
-    {/block:ifShow500pxposts}
-    {block:ifShow400pxposts}
-    width:400px;
-    {/block:ifShow400pxposts}
+    
+    
+    
 }
 
 .cap blockquote {
-    {block:ifShow540pxposts}
+    
     width:540px;
-    {/block:ifShow540pxposts}
-    {block:ifShow500pxposts}
-    width:500px;
-    {/block:ifShow500pxposts}
-    {block:ifShow400pxposts}
-    width:400px;
-    {/block:ifShow400pxposts}
-    margin: 0px 0px 5px;
+    
+    
+    
+    margin-left:0px;
 }
 
 
 .cap blockquote img {
 max-width:540px;
 }
-{/block:ifShowUnnestCaptions}
 
 
 
-{block:ifNotShowUnnestCaptions}
-.caption {
-    margin-top:5px;
-}
 
 
-/* to style the reblogged urls */
-.tumblr_blog {
-    color:{color:Link}!important;
-    vertical-align:top;
-    font-style: none;
-    font-weight:bold;
-    text-transform:uppercase;
-    letter-spacing:1.5px;
-    font-size: 8px;
-    }
     
-
-.tumblr_blog a {
-    color:{color:Link}!important;
-}
-    
-
-
-
-blockquote {
-    border-left:1px solid {color:Borders};
-    padding-left:8px;
-    margin:5px 10px 10px 5px;
-    {block:ifShow540pxposts}
-    width:500px;
-    {/block:ifShow540pxposts}
-    {block:ifShow500pxposts}
-    width:470px;
-    {/block:ifShow500pxposts}
-    {block:ifShow400pxposts}
-    width:370px;
-    {/block:ifShow400pxposts}
-
-}
-{/block:ifNotShowUnnestCaptions}
     
 
 
@@ -365,30 +320,34 @@ blockquote {
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color:{color:text};
-    font-size: {text:Body Font Size};
-    font-family: {text:Body Font};
+    color:#252525;
+    font-size: 10px;
+    font-family: 'Muli', calibri;
     word-wrap:break-word;
     margin:0;
-    background-color:{color:Background};
-    background-image:url('{image:background}');
+    background-color:#ffffff;
+    background-image:url('https://assets.tumblr.com/images/x.gif?v=1');
     background-repeat: repeat;
     background-attachment: fixed;
     background-position:center;
 }
 
 a {
-    color:{color:Link};
+    color:#a7a7a7;
     text-decoration:none;
     transition:all .3s linear;    
     -webkit-transition:all .3s linear;
     -o-transition:all .3s linear;
     -moz-transition:all .3s linear;      
 }
+ 
+a, a img {
+    cursor:pointer;
 
+}
  
 a:hover {
-    color:{color:link hover};
+    color:#aaaaaa!important;
     text-decoration:none;
 }
  
@@ -401,9 +360,7 @@ img {
     max-width:100%;
     height:auto;
     display:block;
-{block:ifShowImagesBlackandWhite}
--webkit-filter: grayscale(100%);
-{/block:ifShowImagesBlackandWhite}
+
 -webkit-transition: all 0.9s ease-in-out;
 -moz-transition: all 0.9s ease-in-out;
 -o-transition: all 0.9s ease-in-out;
@@ -423,14 +380,12 @@ transition: all 0.9s ease-in-out;
 .html_photoset, .photo-slideshow:hover img {
     -webkit-filter: grayscale(0%);
  }
-
-
-
-p { margin:0.8em 0;}
-
-p:first-of-type {margin-top:0;}
  
-p:last-of-type {margin-bottom:0;}
+ 
+blockquote {
+    margin:.5em 0;
+
+}
 
 
 pre {
@@ -446,40 +401,60 @@ pre {
     white-space:-o-pre-wrap;
     word-wrap:break-word;
 }
+ 
+p {
+    margin:1em 0 0 0;
+}
 
+p:first-of-type {
+    margin-top:0;
+}
+ 
+p:last-of-type {
+    margin-bottom:3px;
+}
  
 b, strong,  {
     font-weight:700;
-	color: {color:bold};
+	color: #000;
 }
 
 i, italic {
-    color: {color:italic};
+    color: #2E2D2D;
 }
     
     
 small, sub, pre {
-    font-size: {text:Small Text Size};
+    font-size: 10px;
     line-height:1.4em!important;
     vertical-align:baseline!important;
 }
  
 h1 {
     margin-bottom:10px;
-    font-size:calc({text:Body Font Size} + 3px);
+    font-size:calc(10px + 3px);
     text-align:left;
     letter-spacing:0px;
     text-transform:none;
-    color:{color:Bold}; 
+    color:#000; 
     font-weight:bold;
 }
 
 h2 {
-    font-size:calc({text:Body Font Size} + 3px);
+    font-size:calc(10px + 3px);
     text-align:left;
     letter-spacing:0px;
     text-transform:none;
     font-weight:bold;
+}
+
+.ted {
+    margin-top:10px;
+}
+
+ 
+.posts h1:first-child, .posts h2:first-child, .posts h3:first-child, .posts h4:first-child {
+    margin-top:0;
 }
 
 
@@ -488,7 +463,7 @@ hr {
     margin:10px 0 10px 0;
     border-width: 1px 0px 0px 0px;
     border-style: solid;
-    border-color: {color:Borders};
+    border-color: #EBEBF6;
 }
 
 
@@ -501,15 +476,13 @@ hr {
 
 .search .query {
     width:258px;
-    {block:ifShow245pxSidebar}
-    width:245px;
-    {/block:ifShow245pxSidebar}
+    
     border: 0;
     outline: 0;
     text-align:right;
-    font-size: {text:Body Font Size};
-    font-family: {text:Body Font};
-    color:{color:Text};
+    font-size: 10px;
+    font-family: 'Muli', calibri;
+    color:#252525;
     background-color: transparent;
     text-transform:uppercase;
 }
@@ -523,37 +496,30 @@ input:focus:-ms-input-placeholder { color: transparent;}
 
 .sidebar {
     width:268px;
-    {block:ifShow245pxSidebar}
-    width:245px;
-    {/block:ifShow245pxSidebar}
-    font-size: {text:Body Font Size};
-    font-family: {text:Body Font};
+    
+    font-size: 10px;
+    font-family: 'Muli', calibri;
     margin-left:45px;
     position: fixed;
     margin-top:80px; 
     padding:10px 5px 15px 5px;
-    background-color:{color:Posts Background};
-    {block:ifShowSidebarBorder}
-    outline:1px solid {color:Borders};
-    {/block:ifShowSidebarBorder}
+    background-color:#FFFFFF;
+    
 }
 
 
 .sidebarimage {
     width:268px;
-    {block:ifShow245pxSidebar}
-    width:245px;
-    {/block:ifShow245pxSidebar}
+    
     margin-top:10px;
     margin-bottom:10px;
+-webkit-filter: grayscale(100%);
 }
 
 
 .description {
     width:258px;
-    {block:ifShow245pxSidebar}
-    width:235px;
-    {/block:ifShow245pxSidebar}
+    
     margin-top:0px;
     margin-bottom:0px;
     padding:5px;
@@ -561,20 +527,18 @@ input:focus:-ms-input-placeholder { color: transparent;}
     font-weight:none;
     line-height:1.2em;
     text-transform:lowercase;
-    color:{color:Text};
+    color:#252525;
     letter-spacing:0px;
 }
 
 .description a:hover {
-    color:{color:Link Hover};
+    color:#aaaaaa;
 }
 
 
 .sidebarlinks {
     width:268px;
-    {block:ifShow245pxSidebar}
-    width:245px;
-    {/block:ifShow245pxSidebar}
+    
     margin-top:10px;
     margin-bottom:0px;
     text-align:right;
@@ -584,7 +548,7 @@ input:focus:-ms-input-placeholder { color: transparent;}
 } 
 
 .sidebarlinks a {
-    color: {color:Bold};
+    color: #000;
     padding:3px;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
@@ -593,7 +557,7 @@ input:focus:-ms-input-placeholder { color: transparent;}
 }
 
 .sidebarlinks a:hover {
-    color:{color:Link Hover};
+    color:#aaaaaa;
     text-decoration:none;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
@@ -608,6 +572,24 @@ input:focus:-ms-input-placeholder { color: transparent;}
 
 /*     posts    */
 
+section {
+    
+    width:540px;
+    
+    
+    
+    margin:50px auto 100px 440px;
+}
+
+.npf_row {
+    
+    width:540px;
+    
+    
+    
+    padding-left:20px;
+}
+
 
 .container {
     width:1200px;
@@ -616,140 +598,95 @@ input:focus:-ms-input-placeholder { color: transparent;}
 }
 
 
-.postscontainer {
-    {block:ifShow540pxposts}
-    width:540px;
-    {/block:ifShow540pxposts}
-    {block:ifShow500pxposts}
-    width:500px;
-    {/block:ifShow500pxposts}
-    {block:ifShow400pxposts}
-    width:400px;
-    {/block:ifShow400pxposts}
-    margin:50px auto 100px 440px;
-}
-
-.posts {
-    {block:ifShow540pxposts}
-    width:540px;
-    {/block:ifShow540pxposts}
-    {block:ifShow500pxposts}
-    width:500px;
-    {/block:ifShow500pxposts}
-    {block:ifShow400pxposts}
-    width:400px;
-    {/block:ifShow400pxposts}
-    padding:10px;
-    background-color:{color:Posts Background};
-    text-align:justify;
-    {block:ifShowDateBorder}
-    outline:1px solid {color:Posts Background};
-    {/block:ifShowDateBorder}
-    
-    {block:ifShowPostsBorder}
-    outline:1px solid {color:Borders};
-    {/block:ifShowPostsBorder}
-}
-
-.npf_row {
-    {block:ifShow540pxposts}
-    width:540px;
-    {block:ifNotShowUnnestCaptions}
-    width:520px;
-    {/block:ifNotShowUnnestCaptions}
-    {/block:ifShow540pxposts}
-    {block:ifShow500pxposts}
-    width:500px;
-    {block:ifNotShowUnnestCaptions}
-    width:480px;
-    {/block:ifNotShowUnnestCaptions}
-    {/block:ifShow500pxposts}
-    {block:ifShow400pxposts}
-    width:400px;
-    {block:ifNotShowUnnestCaptions}
-    width:380px;
-    {/block:ifNotShowUnnestCaptions}
-    {/block:ifShow400pxposts}
-    padding-left:20px;
-}
 
 
 
 /*     style for pixel union photosets
        i recomend not changing if you don't know what you're doing     */
+    
 
-.set {
-    margin-bottom:-8px;
-}
-
-.photo-slideshow {
-    width:auto!important;
-}
-
-{block:ifShow540pxposts}
 .photo-slideshow .count-1 {
     margin-bottom:4px!important;
     width:540px;
 }
- 
+
 .photo-slideshow .count-2 {
     margin-left:4px!important;
     margin-bottom:4px!important;
     width:268px!important;
 }
- 
+
 .photo-slideshow .count-2:first-child {
     margin-left:0!important;
 }
- 
+
 .photo-slideshow .count-3 {
     margin-left:4px!important;
     margin-bottom:4px!important;
     width:177px!important;
 }
- 
+
 .photo-slideshow .count-3:first-child {
     margin-left:0!important;
 }
- 
+
 .photo-slideshow .count-3:nth-child(2) {
     width:177px!important;
 }
-{/block:ifShow540pxposts}
- 
- 
-{block:ifShow500pxposts}
-.photo-slideshow .count-1 {
-    margin-bottom:4px!important;
-    width:500px;
-}
- 
-.photo-slideshow .count-2 {
-    margin-left:4px!important;
-    margin-bottom:4px!important;
-    width:245px!important;
-}
- 
-.photo-slideshow .count-2:first-child {
-    margin-left:0!important;
-}
- 
-.photo-slideshow .count-3 {
-    margin-left:4px!important;
-    margin-bottom:4px!important;
-    width:160px!important;
-}
- 
-.photo-slideshow .count-3:first-child {
-    margin-left:0!important;
-}
- 
-.photo-slideshow .count-3:nth-child(2) {
-    width:160px!important;
-}
-{/block:ifShow500pxposts}
 
 
+
+
+    
+    
+
+
+.postscontainer {
+    
+    width:550px;
+    
+    
+    
+}
+
+
+
+.posts {
+    
+    width:540px;
+    
+    
+    
+    padding:10px;
+    background-color:#FFFFFF;
+    text-align:justify;
+    
+    
+    
+    outline:1px solid #EBEBF6;
+    
+}
+
+
+.set {
+    margin:auto!important;
+}
+
+.photo-slideshow {
+    width:auto!important;
+}
+    
+    
+.ph {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.ph img {
+    max-width:100%;
+    display:block;
+    overflow:hidden;
+}
 
 
 
@@ -759,40 +696,32 @@ input:focus:-ms-input-placeholder { color: transparent;}
 
 
 .info {
-    {block:ifShow540pxposts}
-    width:540px;
-    {/block:ifShow540pxposts}
-    {block:ifShow500pxposts}
-    width:500px;
-    {/block:ifShow500pxposts}
-    {block:ifShow400pxposts}
-    width:400px;
-    {/block:ifShow400pxposts}
     
-    {block:ifShowPostsBorder}
-    outline:1px solid {color:Posts Background};
-    {/block:ifShowPostsBorder}
-    {block:ifShowDateBorder}
-    outline:1px solid {color:Borders};
-    {/block:ifShowDateBorder}
+    width:540px;
+    
+    
+    
+    
+    
+    outline:1px solid #FFFFFF;
+    
+    
     padding:10px;
-    font-size:{text:Date Text Size};
-    font-family:{text:Date Font};
-    letter-spacing:{text:Date Text Spacing};
-    text-transform:{select:Date Text Transform};
-    color:{color:text};
-    background-color:{color:Posts Background};
+    font-size:8px;
+    font-family:'Hind Siliguri', calibri;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:#252525;
+    background-color:#FFFFFF;
 }
 
 
 .info .sf {
     font-size:8px;
-    color:{color:bold};
+    color:#000;
     font-weight:100;
     display:inline-block;
-    {block:ifNotShowIcons}
-    display:none;
-    {/block:ifNotShowIcons}
+    
     height:1em;
     line-height:1em;
     overflow:hidden;
@@ -801,7 +730,7 @@ input:focus:-ms-input-placeholder { color: transparent;}
 
     
 .info a {
-    color:{color:text};
+    color:#252525;
 }
 
 .info a:hover {
@@ -818,11 +747,11 @@ input:focus:-ms-input-placeholder { color: transparent;}
 }
 
 .bottom a {
-    color:{color:Text};
+    color:#252525;
 }
 
 .notecount {
-    font-size:{text:Date Text Size};
+    font-size:8.3px;
 }
 
 .tags {
@@ -835,11 +764,9 @@ input:focus:-ms-input-placeholder { color: transparent;}
 }
 
 .tags a {
-    color:{color:text};
+    color:#252525;
     margin:0 2.5px;
-    {block:ifNotShowIcons}
-    padding:2px;
-    {/block:ifNotShowIcons}
+    
 }    
 
 
@@ -861,7 +788,7 @@ input:focus:-ms-input-placeholder { color: transparent;}
     opacity:0.000001;
 }
 .like-b .liked + .b {
-    color:{color:Liked Text};
+    color:#9D9D9D;
 }
 .like-b .liked + .b:after {
     content:'d';
@@ -869,21 +796,17 @@ input:focus:-ms-input-placeholder { color: transparent;}
 
 
 .postsnote {
-    {block:ifShow540pxposts}
+    
     width:540px;
-    {/block:ifShow540pxposts}
-    {block:ifShow500pxposts}
-    width:500px;
-    {/block:ifShow500pxposts}
-    {block:ifShow400pxposts}
-    width:400px;
-    {/block:ifShow400pxposts}
+    
+    
+    
     margin-top:-20px;
     float: left;
     margin-bottom:30px;
     margin-left:px;
     padding:10px;
-    background-color:{color:Posts Background};
+    background-color:#FFFFFF;
 }
 
 .postsnote ol, .notes-bottom ul {
@@ -896,8 +819,8 @@ input:focus:-ms-input-placeholder { color: transparent;}
     width:45%;
     padding: 2px 0 5px 10px;
     margin:2px;
-    font-size: {text:Body Font Size};
-    font-family: {text:Body Font};
+    font-size: 10px;
+    font-family: 'Muli', calibri;
     float:left;
     text-align:left;
 }
@@ -927,14 +850,14 @@ input:focus:-ms-input-placeholder { color: transparent;}
     text-transform:uppercase;
     letter-spacing:0.5px;
     font-size:8px;
-    font-size: {text:Body Font Size};
-    font-family: {text:Body Font};
+    font-size: 10px;
+    font-family: 'Muli', calibri;
     margin-top:10px;
     font-weight:bold;
     padding:3px;
     position:relative;
     float:left;
-    border-top:1px solid {color:Borders};
+    border-top:1px solid #EBEBF6;
 }
 
 
@@ -946,8 +869,8 @@ input:focus:-ms-input-placeholder { color: transparent;}
 /*     quote     */
 
 p.npf_quote {
-    font-size: {text:Body Font Size};
-    font-family: {text:Body Font};
+    font-size: 10px;
+    font-family: 'Muli', calibri;
 }
 
 .source {
@@ -962,13 +885,13 @@ p.npf_quote {
 /*     chat     */
 
 p.npf_chat {
-    font-size: {text:Body Font Size};
-    font-family: {text:Body Font};
+    font-size: 10px;
+    font-family: 'Muli', calibri;
 }
 
 .chat ol {
-    font-size: {text:Body Font Size};
-    font-family: {text:Body Font};
+    font-size: 10px;
+    font-family: 'Muli', calibri;
     line-height:200%;
     padding:5px;
     margin:0 0 0 -10px;
@@ -978,10 +901,10 @@ p.npf_chat {
 .label {
     font-weight:bold;
     text-transform:uppercase;
-    font-size: {text:Body Font Size};
-    font-family: {text:Body Font};
+    font-size: 10px;
+    font-family: 'Muli', calibri;
     letter-spacing:1px;
-    color:{color:Text};
+    color:#252525;
     padding:5px;
 }
 
@@ -1015,8 +938,8 @@ p.npf_chat {
  
 .hold {
     text-align:left;
-    background:{color:background};
-    border:1px solid {color:borders};
+    background:#ffffff;
+    border:1px solid #EBEBF6;
     position:relative;
     display:block;
     min-height:24px;
@@ -1037,7 +960,7 @@ p.npf_chat {
     display:block;
 }
  
-.hold .track {color:{color:title};}
+.hold .track {color:;}
 
 
 
@@ -1051,31 +974,31 @@ p.npf_chat {
     text-align:left;
     padding:15px;
     margin-bottom:2em;
-    border-bottom:1px solid {color:borders};
+    border-bottom:1px solid #EBEBF6;
 }
 
 
 .ask .sf {
     font-size:7px;
-    color:{color:bold};
+    color:#000;
     margin-left:1px;
     display:inline-block;
 }
 
 .asker {
-	font-size:calc({text:Body Font Size} + 3px);
+	font-size:calc(10px + 3px);
     font-weight:bold;
     display:block;
     text-transform:lowercase;
-    color:{color:Bold};
+    color:#000;
 }
 
 .asker a {
-    color:{color:Bold};
+    color:#000;
 }
 
 .asker a:hover {
-    color:{color:link hover};
+    color:#aaaaaa;
 }
 
 
@@ -1088,10 +1011,10 @@ p.npf_chat {
 /*      quote     */
 
 .quote {
-    font-size:calc({text:Body Font Size} + 3px);
-    font-family: {text:Body Font};
+    font-size:calc(10px + 3px);
+    font-family: 'Muli', calibri;
     margin-top:5px;
-    color:{color:Bold};
+    color:#000;
     font-weight:bold;
     letter-spacing:1px;
     text-transform:none;
@@ -1101,7 +1024,7 @@ p.npf_chat {
 
 .quote .sf {
     font-size:8px;
-    color:{color:bold};
+    color:#000;
     margin-left:1px;
     display:inline-block;
     vertical-align:bottom;
@@ -1111,7 +1034,7 @@ p.npf_chat {
 .source {
     text-align:center;
     font-size:8px;
-    font-family: {text:Body Font};
+    font-family: 'Muli', calibri;
     letter-spacing:0.5px;
     text-transform:uppercase;
 }
@@ -1123,13 +1046,13 @@ p.npf_chat {
 /*      lists     */
 
 ul li {
-    color:{color:Text};
+    color:#252525;
     margin-left:-25px;
     list-style:none; 
 }
 
 ul li:before {
-    color:{color:Bold};
+    color:#000;
     content:'\e083';
     font-family:'saturnicons';
     margin-right:6px;
@@ -1140,7 +1063,7 @@ ul li:before {
 }
 
 ol {
-    color:{color:Text};
+    color:#252525;
     margin-left:-25px;
 }
 
@@ -1160,8 +1083,8 @@ ol {
 
 .pagination {
     text-transform:uppercase;
-	font-size: {text:Body Font Size};
-	font-family: {text:Body Font};
+	font-size: 10px;
+	font-family: 'Muli', calibri;
 }
 
     
@@ -1171,29 +1094,25 @@ ol {
 }
 
 .pagination a:hover {
-    color:{color:Link Hover};
+    color:#aaaaaa;
 }
 
 
 footer {
-    {block:ifShow540pxposts}
+    
     width:540px;
-    {/block:ifShow540pxposts}
-    {block:ifShow500pxposts}
-    width:500px;
-    {/block:ifShow500pxposts}
-    {block:ifShow400pxposts}
-    width:400px;
-    {/block:ifShow400pxposts}
+    
+    
+    
     padding:10px;
     text-align:left;
-    color:{color:Text};
+    color:#252525;
     margin-top:-55px;
-    background-color:{color:Posts Background};
+    background-color:#FFFFFF;
 }
 
 footer a {
-    color:{color:Text};}
+    color:#252525;}
     
 footer .sf {
     font-size:8px;
@@ -1214,7 +1133,7 @@ footer span {
 
 /*     DO NOT REMOVE     */
 
-.credito {
+.credit {
     position:fixed;
     font-family: 'Hind Siliguri', calibri;
     font-size:8px;
@@ -1226,11 +1145,11 @@ footer span {
     color: #393939;
 }
 
-.credito a {
-    color:{color:Text};
+.credit a {
+    color:#252525;
     padding:3px;
     background-color: #fff;
-    border:1px solid {color:Borders};
+    border:1px solid #EBEBF6;
     font-style:normal;
     padding:3px;
     -moz-transition-duration:0.5s;
@@ -1239,10 +1158,18 @@ footer span {
 }
     
 
-{CustomCSS}
+
 
 </style>
-</head>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=britishrobertty%26postID=172005395835" /><link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=britishrobertty&postID=172005395835" /><link rel="alternate" type="application/json+oembed" href="https://www.tumblr.com/oembed/1.0?url=http://britishrobertty.tumblr.com/post/172005395835/chat-title" title="chat title
+Jack: Hey, you know what sucks?
+Lindsey: vacuums
+Jack: Hey, you know what sucks in a metaphorical sense?
+Lindsey: black holes
+Jack: Hey, you know what just isn&#039;t cool?
+Lindsey: lava?
+"/><script src="https://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=a8fadfa499d8cb7c3f8eefdf0b1adfdd"></script><meta name="keywords" content="reblog,allison weiss,fingers crossed,audio,hr style" /><!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:site_name" content="THEMES" /><meta property="og:title" content="THEMES" /><meta property="og:description" content="Jack: Hey, you know what sucks? Lindsey: vacuums Jack: Hey, you know what sucks in a metaphorical sense? Lindsey: black holes Jack: Hey, you know what just isn&#039;t cool? Lindsey: lava?" /><meta property="og:url" content="http://britishrobertty.tumblr.com/post/172005395835/chat-title" /><meta property="og:type" content="conversation" /><meta property="og:determiner" content="a" /><meta property="og:image" content="https://66.media.tumblr.com/avatar_35ccf6fa7fb3_512.pnj" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=britishrobertty&amp;postID=172005395835" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=britishrobertty&amp;postID=172005395835" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- GOOGLE CAROUSEL --><script type="application/ld+json">
+	{"@type":"ItemList","url":"http:\/\/britishrobertty.tumblr.com","itemListElement":[{"@type":"ListItem","position":1,"url":"http:\/\/britishrobertty.tumblr.com\/post\/182735897615\/childmagazine-laure-prouvost-ideally-2011"},{"@type":"ListItem","position":2,"url":"http:\/\/britishrobertty.tumblr.com\/post\/182735882280\/lorem-ipsum-consectetuer-mattis-porta-urna"},{"@type":"ListItem","position":3,"url":"http:\/\/britishrobertty.tumblr.com\/post\/172005649630\/suspendisse-ac-pede-cras-tincidunt-pretium-felis"},{"@type":"ListItem","position":4,"url":"http:\/\/britishrobertty.tumblr.com\/post\/172005612385\/an-example-post"},{"@type":"ListItem","position":5,"url":"http:\/\/britishrobertty.tumblr.com\/post\/172005559065\/demo-allison-weiss-fingers-crossed"},{"@type":"ListItem","position":6,"url":"http:\/\/britishrobertty.tumblr.com\/post\/172005395835\/chat-title"}],"@context":"http:\/\/schema.org"}</script><link rel="canonical" href="http://britishrobertty.tumblr.com/post/172005395835/chat-title" /><script src="https://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=a8fadfa499d8cb7c3f8eefdf0b1adfdd"></script><!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="britishrobertty" /><meta name="twitter:title" content="britishrobertty" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=britishrobertty&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=britishrobertty&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=britishrobertty&amp;referrer=twitter-cards" /><link rel="canonical" href="https://britishrobertty.tumblr.com/195" /></head>
 
 
 <body>
@@ -1251,152 +1178,494 @@ footer span {
 <form class="search" action="javascript:return false">
 <input type="text" class="query" placeholder="search tags">
 </form>
-<img src="{image:sidebar}" class="sidebarimage">
+<img src="https://static.tumblr.com/0siu224/ftapmmtas/s17.gif" class="sidebarimage">
 <div class="description">
-{Description}
+lorem ipsum <strong>consectetuer</strong> mattis porta urna, <i>adipiscing</i> elit. aliquam nisi lorem, pulvinar id, <strong>commodo</strong> feugiat, vehicula et, <i>mauris.</i> aliquam mattis <strong>porta</strong> urna.
 </div>
 <nav class="sidebarlinks">
-<a href="{text:index url}">{text:index text}</a>
-<a href="{text:ask url}">{text:ask text}</a>
-{block:ifShowLink1}
-<a href="{text:link 1 url}">{text:link 1 text}</a>
-{/block:IfShowLink1}
-{block:ifShowLink2}
-<a href="{text:link 2 url}">{text:link 2 text}</a>
-{/block:IfShowLink2}
-{block:ifShowLink3}
-<a href="{text:link 3 url}">{text:link 3 text}</a>
-{/block:IfShowLink3}
-{block:ifShowLink4}
-<a href="{text:link 4 url}">{text:link 4 text}</a>
-{/block:IfShowLink4}
+<a href="/">home</a>
+<a href="/ask">questions</a>
+
+<a href="/">Link 1</a>
+
+
+<a href="/">Link 2</a>
+
+
+<a href="/">Link 3</a>
+
+
+<a href="/">Link 4</a>
+
 </nav>
 </aside>
 
 
 
-<section class="postscontainer" id="{PostID}">
-{block:posts}
-{block:Date}
+<section class="entries" id="">
+
+
 <div class="info top"> 
-<a href="{Permalink}"><span class="sf sf-location"></span><span class="time-ago"> {TimeStamp} </span></a>
-{block:RebloggedFrom}
- <a href="{ReblogParentURL}">{ReblogParentName}</a>
-{block:Permalink}
-{block:ContentSource} <span class="sf sf-refresh-o"></span> <a href="{ReblogRootURL}">{ReblogRootName}</a>{/block:ContentSource}{/block:Permalink}
-{/block:RebloggedFrom}  
-{block:NoteCount}<div style="float:right;"><span class="sf sf-heart-o"></span> <span class="notecount">{NoteCount}</span></div>{/block:NoteCount}
+<a href="http://britishrobertty.tumblr.com/post/182735897615/childmagazine-laure-prouvost-ideally-2011"><span class="sf sf-location"></span><span class="time-ago"> 1549897301 </span></a>
+
+ <a href="http://childmagazine.tumblr.com/post/100335649774/laure-prouvost-ideally-2011">childmagazine</a>
+
+  
+<div style="float:right;"><span class="sf sf-heart-o"></span> <span class="notecount">49855</span></div>
 </div>
-{/block:Date}
-
-<article class="posts {block:caption}captioned{/block:caption} id="{PostID}>
-
-{block:Text}
-{block:Title}<h2>{Title}</h2>{/block:Title}
-<div class="caption">
-{Body}
-</div>
-{/block:Text}
 
 
-{block:Quote}
-<div class="quote"><span class="th th-quote-up"></span> {quote} <span class="th th-quote-down"></span></div> 
-{block:Source}<div class="source">{source}</div>{/block:Source}
-{/block:Quote}
+<div class"postscontainer">
+<article class="posts captioned id="182735897615>
 
 
 
-{block:Link}
-<h2><a href="{URL}">{Name}</a></h2>
-{block:Description}{Description}{/block:Description}    
-{/block:Link}
 
 
-{block:Chat}
-{block:Title}<h2>{Title}</h2>{/block:Title}
-<div class="chat">
-<ol>{block:Lines}
-<li class="line {Alt}">
-{block:Label}
-<span class="label">{Label}</span>
-{/block:Label} {Line}</li>
-{/block:Lines}
-</ol></div>{/block:Chat}
 
 
-{block:Photo}{linkopentag}<img src="{photoURL-HighRes}" alt="{PhotoAlt}"/>{linkclosetag}
-{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
-{/block:Photo}
-
-{block:Photoset}
-<div class="set"><center><div class="pxu"><div class="photo-slideshow" id="photoset_{PostID}" data-layout="{PhotosetLayout}">{block:Photos}
-<div class="photo-data"><div class="pxu-photo"><img src="{PhotoURL-500}" width="{PhotoWidth-500}" height="{PhotoHeight-500}" data-highres="{PhotoURL-HighRes}" data-width="{PhotoWidth-HighRes}" data-height="{PhotoHeight-HighRes}"></div><a class="tumblr-box" rel="post-{PostID}" href="{PhotoURL-HighRes}"></a></div>{/block:Photos}</div></div></center>
-{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
-{/block:Photoset}
 
 
-{block:Video}<div class="video">{Video-500}</div>{/block:Video}
-
-{block:Audio}
-{block:audioplayer}
-<div class="hold">
-<div class="player">{audioplayerwhite}</div>
-<div class="audio_info">
-{block:trackname}<span class="track">{trackname}</span>{/block:trackname}
-{block:artist}<span class="artist">{artist}</span>{/block:artist}
-</div>
-</div>
-{/block:audioplayer}
-{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
-{/block:Audio}
 
 
-{block:Answer}
-<div class="ask">
-<span class="asker">{Asker}</span> <span class="sf sf-question-mark"></span>
-{question}
-</div>
-<div class="caption">
-<div class="answer">{Answer}</div>
-</div>
-{/block:Answer}
+
+
+
+
+<div class="ph">
+<a href="http://britishrobertty.tumblr.com/image/182735897615"><img src="https://66.media.tumblr.com/37921d60b13feaad08fec25731821922/tumblr_ndnixffbbk1rotipro1_1280.png" alt="childmagazine:
+&ldquo;Laure Prouvost, Ideally&hellip;, 2011
+&rdquo;"/></a>
+<div class="caption"><p><a href="http://childmagazine.tumblr.com/post/100335649774/laure-prouvost-ideally-2011" class="tumblr_blog">childmagazine</a>:</p><blockquote><p><strong>Laure Prouvost</strong>, Ideally&hellip;, 2011</p></blockquote></div>
+
+
+
+
+
+
+
+
+
+
+
 </article>
+</div>
 
 
 
-{block:Date}
+
 <div class="info bottom">
 <span style="float:right;">
-   <a href="{ReblogURL}" target="_blank" class="details">Reblog</a>   <a class="like-b" href="#">{LikeButton}<span class="b">like</span></a>
+   <a href="https://www.tumblr.com/reblog/182735897615/Pcm8mNNK" target="_blank" class="details">Reblog</a>   <a class="like-b" href="#"><div class="like_button" data-post-id="182735897615" data-blog-name="britishrobertty" id="like_button_182735897615"><iframe id="like_iframe_182735897615" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=britishrobertty&amp;post_id=182735897615&amp;color=black&amp;rk=Pcm8mNNK&amp;root_id=100335649774" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_182735897615"></iframe></div><span class="b">like</span></a>
 </span>
-<div class="tags">{block:Tags}<span style="color:{color:bold};"> <span class="sf sf-check-o"></span> <a href="{TagURL}">{Tag}</a> {/block:Tags}
+<div class="tags"><span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/art">art</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/reblog">reblog</a> 
 </div>
 </div>
-{/block:Date}
 
 
-{block:PostNotes}
-<article class="posts postsnote">
-{PostNotes}
+
+
+
+
+
+
+<div class="info top"> 
+<a href="http://britishrobertty.tumblr.com/post/182735882280/lorem-ipsum-consectetuer-mattis-porta-urna"><span class="sf sf-location"></span><span class="time-ago"> 1549897241 </span></a>
+  
+
+</div>
+
+
+<div class"postscontainer">
+<article class="posts  id="182735882280>
+
+
+
+
+
+
+<div class="quote"><span class="th th-quote-up"></span> lorem ipsum consectetuer mattis porta urna, adipiscing elit. aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. aliquam mattis porta urna. <span class="th th-quote-down"></span></div> 
+<div class="source">consectetuer mattis <br /></div>
+
+
+
+
+
+
+
+
+
+
+<div class="ph">
+
+
+
+
+
+
+
+
+
+
+
 </article>
-{/block:PostNotes}
+</div>
 
 
-{/block:Posts}
 
 
-{block:Pagination}
+<div class="info bottom">
+<span style="float:right;">
+   <a href="https://www.tumblr.com/reblog/182735882280/Wf3KTtdl" target="_blank" class="details">Reblog</a>   <a class="like-b" href="#"><div class="like_button" data-post-id="182735882280" data-blog-name="britishrobertty" id="like_button_182735882280"><iframe id="like_iframe_182735882280" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=britishrobertty&amp;post_id=182735882280&amp;color=black&amp;rk=Wf3KTtdl" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_182735882280"></iframe></div><span class="b">like</span></a>
+</span>
+<div class="tags"><span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/quote">quote</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/source">source</a> 
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="info top"> 
+<a href="http://britishrobertty.tumblr.com/post/172005649630/suspendisse-ac-pede-cras-tincidunt-pretium-felis"><span class="sf sf-location"></span><span class="time-ago"> 1521400165 </span></a>
+  
+<div style="float:right;"><span class="sf sf-heart-o"></span> <span class="notecount">1</span></div>
+</div>
+
+
+<div class"postscontainer">
+<article class="posts  id="172005649630>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ph">
+
+
+
+
+
+
+
+
+
+
+
+<div class="ask">
+<span class="asker">Anonymous</span> <span class="sf sf-question-mark"></span>
+Suspendisse ac pede. Cras tincidunt pretium felis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque porttitor mi id felis. Maecenas nec augue.
+</div>
+<div class="caption">
+<div class="answer"><p style="">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam nisi 
+lorem, pulvinar id, commodo feugiat, vehicula et, mauris. Aliquam mattis
+ porta urna.
+
+
+<br /></p></div>
+</div>
+
+</article>
+</div>
+
+
+
+
+<div class="info bottom">
+<span style="float:right;">
+   <a href="https://www.tumblr.com/reblog/172005649630/e42aSKwV" target="_blank" class="details">Reblog</a>   <a class="like-b" href="#"><div class="like_button" data-post-id="172005649630" data-blog-name="britishrobertty" id="like_button_172005649630"><iframe id="like_iframe_172005649630" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=britishrobertty&amp;post_id=172005649630&amp;color=black&amp;rk=e42aSKwV" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_172005649630"></iframe></div><span class="b">like</span></a>
+</span>
+<div class="tags"><span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/anonymous">anonymous</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/answerask">answerask</a> 
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="info top"> 
+<a href="http://britishrobertty.tumblr.com/post/172005612385/an-example-post"><span class="sf sf-location"></span><span class="time-ago"> 1521400088 </span></a>
+  
+<div style="float:right;"><span class="sf sf-heart-o"></span> <span class="notecount">5</span></div>
+</div>
+
+
+<div class"postscontainer">
+<article class="posts  id="172005612385>
+
+
+
+<h2>An example post</h2>
+<div class="caption">
+<p>Lorem ipsum dolor sit amet, consectetuer <a href="https://www.tumblr.com/">adipiscing elit</a>.
+ Aliquam nisi lorem, pulvinar id, commodo feugiat, vehicula et, mauris. 
+Aliquam mattis porta urna. Maecenas dui neque, rhoncus sed, vehicula 
+vitae, auctor at, nisi. Aenean id massa ut lacus molestie porta. 
+Curabitur sit amet quam id libero suscipit venenatis.
+
+<br /></p><ul><li>Lorem ipsum dolor sit amet.</li><li><i>Consectetuer adipiscing elit.</i> </li><li><b>Nam at tortor quis ipsum tempor aliquet.</b></li></ul><p><small>Cum sociis <a href="https://www.tumblr.com/">natoque penatibus</a>
+ et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse 
+sed ligula. Sed volutpat odio non turpis gravida luctus. Praesent elit 
+pede, iaculis facilisis, vehicula mattis, tempus non, arcu.</small></p><blockquote><p>Donec placerat mauris commodo dolor. Nulla tincidunt. Nulla vitae augue. 
+Aenean id massa ut lacus molestie porta. 
+Curabitur sit amet quam id libero suscipit venenatis.
+
+<br /></p></blockquote><p>Suspendisse ac pede. Cras <a href="https://www.tumblr.com/">tincidunt pretium</a>
+ felis. Cum sociis natoque penatibus et magnis dis parturient montes, 
+nascetur ridiculus mus. Pellentesque porttitor mi id felis. Maecenas nec
+ augue. Praesent a quam pretium leo congue accumsan.</p><hr /><p style="">
+Nulla tincidunt. Nulla vitae augue. 
+Aenean id massa ut lacus molestie porta. 
+Curabitur sit amet quam id libero suscipit venenatis.
+
+
+
+
+Cum sociis natoque penatibus et magnis dis parturient montes, 
+nascetur ridiculus mus. Pellentesque porttitor mi id felis. Maecenas nec
+ augue. 
+
+<br /></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ph">
+
+
+
+
+
+
+
+
+
+
+
+</article>
+</div>
+
+
+
+
+<div class="info bottom">
+<span style="float:right;">
+   <a href="https://www.tumblr.com/reblog/172005612385/iUAGH3ve" target="_blank" class="details">Reblog</a>   <a class="like-b" href="#"><div class="like_button" data-post-id="172005612385" data-blog-name="britishrobertty" id="like_button_172005612385"><iframe id="like_iframe_172005612385" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=britishrobertty&amp;post_id=172005612385&amp;color=black&amp;rk=iUAGH3ve" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_172005612385"></iframe></div><span class="b">like</span></a>
+</span>
+<div class="tags"><span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/post-example">post example</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/tittle">tittle</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/link">link</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/list-style">list style</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/italic">italic</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/bold">bold</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/small-font">small font</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/blockquote">blockquote</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/hr-style">hr style</a> 
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="info top"> 
+<a href="http://britishrobertty.tumblr.com/post/172005559065/demo-allison-weiss-fingers-crossed"><span class="sf sf-location"></span><span class="time-ago"> 1521399979 </span></a>
+
+ <a href="http://demo.tumblr.com/post/459260683/allison-weiss-fingers-crossed">demo</a>
+
+  
+<div style="float:right;"><span class="sf sf-heart-o"></span> <span class="notecount">14721</span></div>
+</div>
+
+
+<div class"postscontainer">
+<article class="posts captioned id="172005559065>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="ph">
+
+
+
+
+
+
+
+
+
+<div class="hold">
+<div class="player"><span id="audio_player_172005559065"><div class="audio_player"><iframe class="tumblr_audio_player tumblr_audio_player_172005559065" src="http://britishrobertty.tumblr.com/post/172005559065/audio_player_iframe/britishrobertty/tumblr_ksc4i2SkVU1qz8ouq?audio_file=https%3A%2F%2Fwww.tumblr.com%2Faudio_file%2Fbritishrobertty%2F172005559065%2Ftumblr_ksc4i2SkVU1qz8ouq&color=white&simple=1" frameborder="0" allowtransparency="true" scrolling="no" width="207" height="27"></iframe></div></span></div>
+<div class="audio_info">
+<span class="track">Fingers Crossed</span>
+<span class="artist">Allison Weiss</span>
+</div>
+</div>
+
+<div class="caption"><p><a href="http://demo.tumblr.com/post/459260683/allison-weiss-fingers-crossed" class="tumblr_blog">demo</a>:</p><blockquote><p><strong><a href="http://allisonweiss.tumblr.com/">Allison Weiss</a>&nbsp;&mdash;</strong> Fingers Crossed</p></blockquote></div>
+
+
+
+
+</article>
+</div>
+
+
+
+
+<div class="info bottom">
+<span style="float:right;">
+   <a href="https://www.tumblr.com/reblog/172005559065/wEe8GcU4" target="_blank" class="details">Reblog</a>   <a class="like-b" href="#"><div class="like_button" data-post-id="172005559065" data-blog-name="britishrobertty" id="like_button_172005559065"><iframe id="like_iframe_172005559065" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=britishrobertty&amp;post_id=172005559065&amp;color=black&amp;rk=wEe8GcU4&amp;root_id=228022847" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_172005559065"></iframe></div><span class="b">like</span></a>
+</span>
+<div class="tags"><span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/audio">audio</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/fingers-crossed">fingers crossed</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/allison-weiss">allison weiss</a> <span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/reblog">reblog</a> 
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="info top"> 
+<a href="http://britishrobertty.tumblr.com/post/172005395835/chat-title"><span class="sf sf-location"></span><span class="time-ago"> 1521399666 </span></a>
+
+ <a href="http://demo.tumblr.com/post/233/jack-hey-you-know-what-sucks-lindsey">demo</a>
+
+  
+<div style="float:right;"><span class="sf sf-heart-o"></span> <span class="notecount">45950</span></div>
+</div>
+
+
+<div class"postscontainer">
+<article class="posts  id="172005395835>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>chat title</h2>
+<div class="chat">
+<ol>
+<li class="line odd">
+
+<span class="label">Jack:</span>
+ Hey, you know what sucks?</li>
+
+<li class="line even">
+
+<span class="label">Lindsey:</span>
+ vacuums</li>
+
+<li class="line odd">
+
+<span class="label">Jack:</span>
+ Hey, you know what sucks in a metaphorical sense?</li>
+
+<li class="line even">
+
+<span class="label">Lindsey:</span>
+ black holes</li>
+
+<li class="line odd">
+
+<span class="label">Jack:</span>
+ Hey, you know what just isn&#039;t cool?</li>
+
+<li class="line even">
+
+<span class="label">Lindsey:</span>
+ lava?</li>
+
+</ol></div>
+
+
+<div class="ph">
+
+
+
+
+
+
+
+
+
+
+
+</article>
+</div>
+
+
+
+
+<div class="info bottom">
+<span style="float:right;">
+   <a href="https://www.tumblr.com/reblog/172005395835/5eI0YaaG" target="_blank" class="details">Reblog</a>   <a class="like-b" href="#"><div class="like_button" data-post-id="172005395835" data-blog-name="britishrobertty" id="like_button_172005395835"><iframe id="like_iframe_172005395835" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=britishrobertty&amp;post_id=172005395835&amp;color=black&amp;rk=5eI0YaaG&amp;root_id=233" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_172005395835"></iframe></div><span class="b">like</span></a>
+</span>
+<div class="tags"><span style="color:#000;"> <span class="sf sf-check-o"></span> <a href="http://britishrobertty.tumblr.com/tagged/chat">chat</a> 
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
 <footer class="pagination">
 <a href="javascript:;" id="scrollToTop">
 <span class="sf sf-chevron-up"></span></a>
-{block:PreviousPage}
-<a href="{PreviousPage}"> back </a>
-{/block:PreviousPage}
-{block:NextPage}
-<a href="{NextPage}"> next </a>
-{/block:NextPage}
+
+
+<a href="/page/2"> next </a>
+
 </footer>
-{/block:Pagination}
+
 </section>
 
 
@@ -1405,13 +1674,13 @@ footer span {
 $(document).ready(function(){
     $('body').tooltip({track:true});    
     $('iframe.tumblr_audio_player').load( function() {
-        $('iframe.tumblr_audio_player').contents().find("head").append($("<style type='text/css'> .audio-player{background:{color:background} !important} </style>"));
+        $('iframe.tumblr_audio_player').contents().find("head").append($("<style type='text/css'> .audio-player{background:#ffffff !important} </style>"));
     });    
 });
 </script>
 
 <script type="text/javascript">
-var $container = $('.postscontainer');
+var $container = $('.entries');
     $container.find('.notecount').each(function(){
         var n = $(this).html().split(' ')[0].replace(/,/g, '');
         if (n > 999) {
@@ -1421,12 +1690,134 @@ var $container = $('.postscontainer');
     });
 </script>
 
-<div class="credito"><a href="https://scottisbae.tumblr.com/">scottisbae</a></div>
+<div class="credit"><a href="https://scottisbae.tumblr.com/">scottisbae</a></div>
 
-{block:ContentSource}
-<!-- {SourceURL}{block:SourceLogo}<img src="{BlackLogoURL}"
-width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
-{/block:SourceLogo}
-{block:NoSourceLogo}{SourceLink}{/block:NoSourceLogo} -->
-{/block:ContentSource}
-</body></html>
+
+
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?dfab06320413a6a34dbca419c4c70f2c#" +
+                              "http://britishrobertty.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/';
+                    var tumblelog_id = 't:0TZZFfV0jZm5LVvbnvbvRw';
+                    var yahoo_space_id = '1197719229';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1549897370&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL2JyaXRpc2hyb2JlcnR0eS50dW1ibHIuY29tLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiLyJ9&U=MBPIMIMPOF&K=88567bb6f4ad02911a5a33b3ebf9c4a15291e03fe6cfe49b3d1ad4d0c2d4c4fd&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1549897370&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL2JyaXRpc2hyb2JlcnR0eS50dW1ibHIuY29tLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiLyIsIm5vc2NyaXB0IjoxfQ==&U=MBPIMIMPOF&K=33759aa824ae97b49a6c34233be0e4288b36d64c92a9c2c803748eb22adc574a&R="></noscript><script nonce="tZEZoPn9jJsQbCaA2Lk37t59XlY">
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'https://assets.tumblr.com/assets/scripts/vendor/cedexis/1-13960-radar10.min.js?_v=8d32508b0a251bebecb4853c987c5015';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1549897370&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly9icml0aXNocm9iZXJ0dHkudHVtYmxyLmNvbS8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6Ii8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI0MjU3MTY5NCIsInJvb3RfcG9zdGlkIjoiMTAwMzM1NjQ5Nzc0IiwicG9zdGlkIjoiMTgyNzM1ODk3NjE1IiwiYmxvZ2lkIjoiMTY0ODA0NzA0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiIxODI3MzU4ODIyODAiLCJibG9naWQiOiIxNjQ4MDQ3MDQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjE3MjAwNTY0OTYzMCIsImJsb2dpZCI6IjE2NDgwNDcwNCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTcyMDA1NjEyMzg1IiwiYmxvZ2lkIjoiMTY0ODA0NzA0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4MjMwNSIsInJvb3RfcG9zdGlkIjoiMjI4MDIyODQ3IiwicG9zdGlkIjoiMTcyMDA1NTU5MDY1IiwiYmxvZ2lkIjoiMTY0ODA0NzA0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4Iiwicm9vdF9wb3N0aWQiOiIyMzMiLCJwb3N0aWQiOiIxNzIwMDUzOTU4MzUiLCJibG9naWQiOiIxNjQ4MDQ3MDQiLCJzb3VyY2UiOjMzfV19&U=NBFDNFPJFP&K=c4c302889c0fae1ffc1d1cb874e1b9ee6e5b75726767109e0553479634ad80a6&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1549897370&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly9icml0aXNocm9iZXJ0dHkudHVtYmxyLmNvbS8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6Ii8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI0MjU3MTY5NCIsInJvb3RfcG9zdGlkIjoiMTAwMzM1NjQ5Nzc0IiwicG9zdGlkIjoiMTgyNzM1ODk3NjE1IiwiYmxvZ2lkIjoiMTY0ODA0NzA0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiIxODI3MzU4ODIyODAiLCJibG9naWQiOiIxNjQ4MDQ3MDQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjE3MjAwNTY0OTYzMCIsImJsb2dpZCI6IjE2NDgwNDcwNCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTcyMDA1NjEyMzg1IiwiYmxvZ2lkIjoiMTY0ODA0NzA0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4MjMwNSIsInJvb3RfcG9zdGlkIjoiMjI4MDIyODQ3IiwicG9zdGlkIjoiMTcyMDA1NTU5MDY1IiwiYmxvZ2lkIjoiMTY0ODA0NzA0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4Iiwicm9vdF9wb3N0aWQiOiIyMzMiLCJwb3N0aWQiOiIxNzIwMDUzOTU4MzUiLCJibG9naWQiOiIxNjQ4MDQ3MDQiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=NBFDNFPJFP&K=dc61cd1f710e97965467e3144919cd5b8da462e0b8ec487dd9f75d2aa7efd001&R="></noscript><noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;PostActivity&quot;:[],&quot;NotificationPoller&quot;:{&quot;messaging_keys&quot;:[],&quot;token&quot;:&quot;c86f8a500596474a7ef5034081f694bd&quot;,&quot;inbox_unread&quot;:0},&quot;DesktopDashboardLogo&quot;:{&quot;animations&quot;:[[&quot;http:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1.png?_v=161861acded461bb6e995593a3bae835&quot;,&quot;http:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1@2x.png?_v=496a774637302a598c851381d00009b0&quot;]]},&quot;TumblelogIframe&quot;:{&quot;unified&quot;:true,&quot;variant&quot;:null,&quot;isCompact&quot;:true,&quot;tumblelogBundleSrc&quot;:&quot;http:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.build.js?_v=92db2be43f74ecacde2e1349866393ce&quot;,&quot;tumblelogName&quot;:&quot;britishrobertty&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;canSubscribe&quot;:false,&quot;isSubscribed&quot;:false,&quot;tumblelogTitle&quot;:&quot;THEMES&quot;,&quot;tumblelogAvatar&quot;:&quot;https:\/\/66.media.tumblr.com\/avatar_35ccf6fa7fb3_64.pnj&quot;,&quot;tumblelogHost&quot;:&quot;http:\/\/britishrobertty.tumblr.com&quot;,&quot;isOptica&quot;:false,&quot;isCustomTheme&quot;:true,&quot;themeHeaderImage&quot;:&quot;https:\/\/assets.tumblr.com\/images\/default_header\/optica_pattern_09.png?_v=abe6f565397f54e880c2b76e6fc2022e&quot;,&quot;themeBackgroundColor&quot;:&quot;#F6F6F6&quot;,&quot;themeTitleColor&quot;:&quot;#444444&quot;,&quot;themeAccentColor&quot;:&quot;#529ECC&quot;,&quot;brag&quot;:true,&quot;adsEnabled&quot;:true,&quot;canShowAd&quot;:true,&quot;isPremium&quot;:false,&quot;showLrecAds&quot;:false,&quot;showStickyLrecBackfill&quot;:false,&quot;showGeminiAds&quot;:false,&quot;geminiSectionCodeDesktop&quot;:&quot;a10bca9c-0c5d-4a02-ab13-14ab8513d81d&quot;,&quot;geminiSectionCodeMobile&quot;:&quot;ced63809-b609-4aca-96a0-abc099acba6b&quot;,&quot;currentPageType&quot;:&quot;blog&quot;,&quot;currentPage&quot;:&quot;1&quot;,&quot;searchQuery&quot;:&quot;&quot;,&quot;tag&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;chrono&quot;:false,&quot;postId&quot;:&quot;&quot;,&quot;src&quot;:&quot;http:\/\/britishrobertty.tumblr.com\/&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;http:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=3de94a184d600617102ddd5b48fb36e9&quot;,&quot;appInstallUrls&quot;:{&quot;android&quot;:&quot;https:\/\/play.google.com\/store\/apps\/details?id=com.tumblr\u0026referrer=utm_source%3Dtumblr%26utm_medium%3Diframe%26utm_campaign%3Dblog_network_floating_cta&quot;,&quot;ios&quot;:&quot;https:\/\/itunes.apple.com\/app\/apple-store\/id305343404?pt=9029\u0026ct=blog_network_floating_cta\u0026mt=8&quot;},&quot;appOpenReferrer&quot;:&quot;tumblr_new_iframe&quot;,&quot;isShowSearch&quot;:true,&quot;supplyLogging&quot;:[],&quot;secondsSinceLastActivity&quot;:-1}},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwic2FmZV9tb2RlIjp0cnVlLCJzYWZlX21vZGVfZW5hYmxlZCI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwia3Jha2VuX3dlYl9sb2dnaW5nX2xpYnJhcnkiOnRydWUsInNlY3VyZV9mb3JtX2tleSI6dHJ1ZSwic2VjdXJlX2Zvcm1fa2V5X2Z1bGx5X29uIjp0cnVlLCJ0dW1ibGVsb2dfcG9wb3ZlciI6dHJ1ZSwiY2Fub25pY2FsX3VybF93cml0ZXMiOnRydWUsImVuYWJsZV9jYXB0dXJlX2pzIjp0cnVlLCJwcmltYV9wb3N0X2Zvcm1zIjp0cnVlLCJsb2NrZWRfcmVibG9nX3VpIjp0cnVlLCJ0YWJsZXRfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwibW9iaWxlX2Jhbm5lcl9hY3RpdmUiOnRydWUsImxvZ19zZWFyY2hfYm94Ijp0cnVlLCJ1c2VyX21lbnRpb25zIjp0cnVlLCJodG1sNV9hdWRpb19wbGF5ZXIiOnRydWUsInBvcG92ZXJfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJpbmRhc2hfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidHVtYmxyX3R2Ijp0cnVlLCJkZXByZWNhdGVfZmVhdHVyZWRfdGFncyI6dHJ1ZSwicmVibG9nX3VpX3JlZnJlc2giOnRydWUsInRhYl9zd2l0Y2hlciI6dHJ1ZSwiZmFzdF9jb21wb3NlIjp0cnVlLCJkYXNoYm9hcmRfcmVmcmVzaCI6dHJ1ZSwibW9iaWxlX3dlYl9waG90b3NldHMiOnRydWUsIm1vYmlsZV93ZWJfZ2F0ZSI6dHJ1ZSwibW9iaWxlX3dlYl9wYWdlX3RpdGxlcyI6dHJ1ZSwibW9iaWxlX3dlYl9hYnVzZV9mb3JtIjp0cnVlLCJkb250X2Nhc3RfanNfZm9sbG93cyI6dHJ1ZSwiYWRzX25ld192ZW5kb3JfYnV0dG9ucyI6dHJ1ZSwicmVhY3RpdmF0aW9uX2Zsb3ciOnRydWUsImd1bHBqc19hZG1pbiI6dHJ1ZSwiZW5hYmxlX2pzX2VwaGVtZXJhbF9sb2ciOnRydWUsImxvZ19sYWR5Ijp0cnVlLCJjc2xvZ2dlcl9qcyI6dHJ1ZSwiZGlzY292ZXJ5X2h1Yl9hY2Nlc3MiOnRydWUsImhlYWRlcl9hY2NvdW50X21lbnUiOnRydWUsImVuYWJsZV9zaGFyZV9lbWJlZF9jb2RlIjp0cnVlLCJyZWRkaXRfc2hhcmluZyI6dHJ1ZSwicG9zdF9pdF9mb3J3YXJkIjp0cnVlLCJwZWVwcl9zZWFyY2hfYW5kX2ZpbHRlciI6dHJ1ZSwiaW50ZXJuc19wYWdlIjp0cnVlLCJmb2xsb3dlZF9zZWFyY2hlc19iaWdfd2ViIjp0cnVlLCJsaXZlcGhvdG9zX3dlYiI6dHJ1ZSwicHJvamVjdF94X2FwcGVhbCI6dHJ1ZSwicHJvamVjdF94X3dlYl9zZW5zaXRpdmVfY292ZXJzIjp0cnVlLCJzYWZlX21vZGVfb3duX3Bvc3QiOnRydWUsImhpZGVfZGVmYXVsdF9oZWFkZXJzX2Jsb2dfY2FyZHMiOnRydWUsInR5cGluZ19pbmRpY2F0b3Jfd3JpdGUiOnRydWUsImdkcHJfZ3VjZV9pc19yZXF1aXJlZCI6dHJ1ZSwidHVtYmxyX3ZpZGVvX3Nwb25zb3JlZF9kYXkiOnRydWUsImFjY2Vzc2liaWxpdHlfZGVzaWduX3VwZGF0ZSI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJkYXJsYV9hZF9mZWVkYmFjayI6dHJ1ZSwic3RhdHVzX2luZGljYXRvciI6dHJ1ZSwiZGlzYWJsZV95YWhvb19iX2Nvb2tpZSI6dHJ1ZSwibGl2ZXBob3RvcyI6dHJ1ZX0=&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1549897370000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;http:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;http:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;http:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;http:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;pt_BR&quot;,&quot;language_simple&quot;:&quot;pt&quot;,&quot;assets&quot;:&quot;http:\/\/assets.tumblr.com\/client\/prod\/&quot;},&quot;Translations&quot;:{&quot;Cancel&quot;:&quot;Cancelar&quot;,&quot;Nevermind&quot;:&quot;Cancelar&quot;,&quot;Ignore&quot;:&quot;Bloquear&quot;,&quot;Unfollow&quot;:&quot;Parar de seguir&quot;,&quot;Are you sure you want to unfollow %1$s?&quot;:&quot;Tem certeza de que deseja parar de seguir %1$s?&quot;,&quot;Sorry, we seem to be having technical trouble.  Please try again later.&quot;:&quot;Desculpe, estamos enfrentando problemas t\u00e9cnicos. Tente novamente mais tarde.&quot;,&quot;Follow&quot;:&quot;Seguir&quot;,&quot;Follow %1$s&quot;:&quot;Seguir %1$s&quot;,&quot;Put it back&quot;:&quot;Coloque de volta no lugar&quot;,&quot;See all&quot;:&quot;Ver todos&quot;,&quot;Block&quot;:&quot;Bloquear&quot;,&quot;%1$sAre you sure you want to block %2$s from %3$s?%4$sThey won&#039;t be able to follow %3$s, send %3$s messages, see %3$s in search results, or interact with any of %3$s&#039;s posts.%5$s&quot;:&quot;%1$sTem certeza de que deseja bloquear o acesso de %2$s a %3$s?%4$sEle(a) n\u00e3o poder\u00e1 seguir %3$s, enviar mensagens para %3$s, ver %3$s nos resultados de pesquisa, nem interagir com os posts de %3$s.%5$s&quot;,&quot;%1$sBlock messages from this sender?%2$sAny further messages sent from their IP address will be blocked from your inbox. This can&#039;t be undone, by the way.%3$s&quot;:&quot;%1$sBloquear mensagens deste usu\u00e1rio?%2$sQuaisquer mensagens futuras enviadas desse endere\u00e7o de IP ser\u00e3o bloqueadas e n\u00e3o chegar\u00e3o a sua caixa de entrada. Isso n\u00e3o poder\u00e1 ser desfeito.%3$s&quot;,&quot;Okay! We&#039;ll review the status of this and email you when we&#039;re done.&quot;:&quot;Tudo bem! Vamos analisar esse status e, ao fim da an\u00e1lise, mandaremos um e-mail com nossa decis\u00e3o.&quot;,&quot;This is marked as sensitive content. If that seems like a mistake, you can request a review.&quot;:&quot;Esse conte\u00fado foi marcado como conte\u00fado adulto. Se voc\u00ea acha que foi um erro, solicite uma revis\u00e3o.&quot;,&quot;Request Review&quot;:&quot;Solicitar revis\u00e3o&quot;,&quot;This post is still marked as sensitive, but is currently being reviewed.&quot;:&quot;Esse post ainda est\u00e1 marcado como conte\u00fado adulto, mas est\u00e1 sendo revisado.&quot;,&quot;After review, it was determined that this post contains sensitive content.&quot;:&quot;Ap\u00f3s fazermos a an\u00e1lise, determinamos que esse post cont\u00e9m conte\u00fado adulto.&quot;,&quot;This is marked as %1$ssensitive%2$s&quot;:&quot;Esse conte\u00fado foi marcado como %1$sconte\u00fado adulto%2$s&quot;,&quot;This Tumblr may contain sensitive media.&quot;:&quot;Este blog pode conter m\u00eddia de conte\u00fado adulto.&quot;,&quot;Sensitive posts are hidden. If you want to change that, disable Safe Mode in your settings.&quot;:&quot;Os posts que apresentam conte\u00fado adulto est\u00e3o ocultos. Se quiser alterar, desative o Modo Seguro nas suas configura\u00e7\u00f5es.&quot;,&quot;Hey, this post may contain adult content, so we&#039;ve hidden it from public view.&quot;:&quot;Esse post pode conter conte\u00fado adulto, ent\u00e3o o ocultamos da visualiza\u00e7\u00e3o p\u00fablica, ok?&quot;,&quot;Learn more&quot;:&quot;Mais informa\u00e7\u00f5es&quot;,&quot;%1$sLearn more%2$s&quot;:&quot;%1$sSaiba mais%2$s&quot;,&quot;Safe Mode is on&quot;:&quot;Modo Seguro ativo&quot;,&quot;%1$sSafe mode is on%2$s&quot;:&quot;%1$sO Modo Seguro est\u00e1 ativo%2$s&quot;,&quot;This post contains filtered tags&quot;:&quot;Este post cont\u00e9m tags filtradas&quot;,&quot;Are you sure you want to log out?&quot;:&quot;Tem certeza de que deseja sair?&quot;,&quot;Likes&quot;:&quot;Curtidas&quot;,&quot;Following&quot;:&quot;Seguindo&quot;,&quot;New&quot;:&quot;Novo Blog&quot;,&quot;Account&quot;:&quot;Conta&quot;,&quot;Settings&quot;:&quot;Configura\u00e7\u00f5es&quot;,&quot;Help&quot;:&quot;Ajuda&quot;,&quot;Log out&quot;:&quot;Sair&quot;,&quot;Reach&quot;:&quot;Alcance do Radar&quot;,&quot;Followers&quot;:&quot;Seguidores&quot;,&quot;Activity&quot;:&quot;Atividade&quot;,&quot;Members&quot;:&quot;Membros&quot;,&quot;Drafts&quot;:&quot;Rascunhos&quot;,&quot;Queue&quot;:&quot;Fila&quot;,&quot;Processing&quot;:&quot;Processando&quot;,&quot;Review flagged posts&quot;:&quot;Revisar posts sinalizados&quot;,&quot;Sponsor&quot;:&quot;Patrocinador&quot;,&quot;Sponsored&quot;:&quot;Patrocinado&quot;,&quot;About Tumblr Ads&quot;:&quot;Sobre os an\u00fancios do Tumblr&quot;,&quot;Edit appearance&quot;:&quot;Editar apar\u00eancia&quot;,&quot;Your blog info, account info, and recent activity are in these menus.&quot;:&quot;As informa\u00e7\u00f5es do seu blog, de sua conta e suas atividades recentes est\u00e3o nestes menus.&quot;,&quot;Wait, why?&quot;:&quot;Mas... por qu\u00ea?&quot;,&quot;Okay, phew&quot;:&quot;OK, ent\u00e3o!&quot;,&quot;Why?&quot;:&quot;Por qu\u00ea?&quot;,&quot;It&#039;s so you never have to scroll to the top of the dashboard to access this stuff.&quot;:&quot;N\u00f3s juntamos tudo aqui para que voc\u00ea n\u00e3o tenha que fazer scroll at\u00e9 o topo da p\u00e1gina para ter acesso a estas op\u00e7\u00f5es.&quot;,&quot;Loading\u2026&quot;:&quot;Carregando...&quot;,&quot;%1$s notes&quot;:&quot;%1$s notas&quot;,&quot;%1$s note&quot;:&quot;%1$s nota&quot;,&quot;%1$s views&quot;:&quot;%1$s visualiza\u00e7\u00f5es&quot;,&quot;%1$s view&quot;:&quot;%1$s visualiza\u00e7\u00e3o&quot;,&quot;%1$s added this GIF to a post&quot;:&quot;%1$s adicionou este GIF a um post&quot;,&quot;%1$s posted this&quot;:&quot;%1$s publicou este post&quot;,&quot;%1$s%2$s likes%3$s&quot;:&quot;%1$s%2$s curtidas%3$s&quot;,&quot;%1$s%2$s like%3$s&quot;:&quot;%1$s%2$s curtida%3$s&quot;,&quot;%1$s%2$s reblogs%3$s&quot;:&quot;%1$s%2$s reblogues%3$s&quot;,&quot;%1$s%2$s reblog%3$s&quot;:&quot;%1$s%2$s reblogue%3$s&quot;,&quot;%1$s%2$s likes%3$s and %4$s%5$s reblogs%3$s&quot;:&quot;%1$s%2$s curtidas%3$s e %4$s%5$s reblogues%3$s&quot;,&quot;%1$s%2$s likes%3$s and %4$s%5$s reblog%3$s&quot;:&quot;%1$s%2$s curtidas%3$s e %4$s%5$s reblogue%3$s&quot;,&quot;%1$s%2$s like%3$s and %4$s%5$s reblogs%3$s&quot;:&quot;%1$s%2$s curtida%3$s e %4$s%5$s reblogues%3$s&quot;,&quot;Reply&quot;:&quot;Responder&quot;,&quot;Add to the discussion&quot;:&quot;Adicionar \u00e0 discuss\u00e3o&quot;,&quot;Unleash a compliment&quot;:&quot;Fa\u00e7a um elogio&quot;,&quot;Have something to say?&quot;:&quot;Voc\u00ea tem algo a dizer?&quot;,&quot;Reply your heart out&quot;:&quot;Responda de cora\u00e7\u00e3o&quot;,&quot;Add something wonderful&quot;:&quot;Diga algo maravilhoso&quot;,&quot;Send something nice&quot;:&quot;Escreva algo legal&quot;,&quot;Your words here&quot;:&quot;Suas palavras aqui&quot;,&quot;Say your thing&quot;:&quot;Bote a boca no trombone&quot;,&quot;Block %1$s&quot;:&quot;Bloquear %1$s&quot;,&quot;Report&quot;:&quot;Denunciar&quot;,&quot;%1$sReport %2$s&#039;s post?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sDeseja denunciar o reblogue de %2$s?%3$sSe o post viola as regras da comunidade, vamos exclu\u00ed-lo.%4$s&quot;,&quot;%1$sReport %2$s&#039;s reply?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sDeseja denunciar o reblogue de %2$s?%3$sSe o post viola as regras da comunidade, vamos exclu\u00ed-lo.%4$s&quot;,&quot;Hide note&quot;:&quot;Ocultar nota&quot;,&quot;Delete reply&quot;:&quot;Deletar resposta&quot;,&quot;%1$sYou definitely want to hide this note?%2$s&quot;:&quot;%1$sTem certeza que deseja ocultar esta nota?%2$s&quot;,&quot;%1$sYou definitely want to delete this reply?%2$s&quot;:&quot;%1$sTem certeza que deseja deletar esta resposta?%2$s&quot;,&quot;Hide it&quot;:&quot;Ocultar&quot;,&quot;Delete it&quot;:&quot;Deletar&quot;}}"></noscript><script src="https://assets.tumblr.com/client/prod/standalone/tumblelog/index.build.js?_v=92db2be43f74ecacde2e1349866393ce"></script><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?_v=9f5febfd57a8a649c598d888f2d9e062#" +
+                              "https://britishrobertty.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/195?route=custom_page'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript" nonce="5skurrQoe2AuPmTfbtTQEMXbio">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1606250810&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL2JyaXRpc2hyb2JlcnR0eS50dW1ibHIuY29tLzE5NSIsInJlcXR5cGUiOjAsInJvdXRlIjoiY3VzdG9tX3BhZ2UifQ==&U=ILLDEOJDGN&K=0d3132fe5ecbba9e98c67dca53debf9bee4ae03fc6feeaccbd9815828a7877c0&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1606250810&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL2JyaXRpc2hyb2JlcnR0eS50dW1ibHIuY29tLzE5NSIsInJlcXR5cGUiOjAsInJvdXRlIjoiY3VzdG9tX3BhZ2UiLCJub3NjcmlwdCI6MX0=&U=ILLDEOJDGN&K=2a4fe5337a50b52214de79351365e4044c0af5a646f232fce8997a9cc086bfc5&R="></noscript><noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;PostActivity&quot;:[],&quot;NotificationPoller&quot;:{&quot;messaging_keys&quot;:[],&quot;token&quot;:&quot;c86f8a500596474a7ef5034081f694bd&quot;,&quot;inbox_unread&quot;:0},&quot;DesktopDashboardLogo&quot;:{&quot;animations&quot;:[[&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1.png?_v=161861acded461bb6e995593a3bae835&quot;,&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1@2x.png?_v=496a774637302a598c851381d00009b0&quot;]]},&quot;TumblelogIframe&quot;:{&quot;unified&quot;:true,&quot;variant&quot;:null,&quot;isCompact&quot;:true,&quot;tumblelogBundleSrc&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.build.js?_v=8e439ccd7386182faae0d4b2ba2f41f4&quot;,&quot;tumblelogName&quot;:&quot;britishrobertty&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;canSubscribe&quot;:false,&quot;isSubscribed&quot;:false,&quot;tumblelogTitle&quot;:&quot;Sed ut perspiciatis unde omnis iste natus lorem ipsum&quot;,&quot;tumblelogAvatar&quot;:&quot;https:\/\/64.media.tumblr.com\/909addea23b74e94ffee34c8c275a5d0\/10df61731f675936-29\/s64x64u_c1\/d79d19a573e69a9994967a58856686444bcb6f03.pnj&quot;,&quot;tumblelogHost&quot;:&quot;https:\/\/britishrobertty.tumblr.com&quot;,&quot;isOptica&quot;:false,&quot;isCustomTheme&quot;:true,&quot;themeHeaderImage&quot;:&quot;https:\/\/64.media.tumblr.com\/e6b76157375ddc451354db956f6da559\/10df61731f675936-ff\/s2048x3072\/b1bae156de7abb244b804887d98148f872ee18b2.png&quot;,&quot;themeBackgroundColor&quot;:&quot;#F6F6F6&quot;,&quot;themeTitleColor&quot;:&quot;#444444&quot;,&quot;themeAccentColor&quot;:&quot;#529ECC&quot;,&quot;brag&quot;:true,&quot;adsEnabled&quot;:true,&quot;canShowAd&quot;:true,&quot;isPremium&quot;:false,&quot;showLrecAds&quot;:false,&quot;showStickyLrecBackfill&quot;:false,&quot;showGeminiAds&quot;:false,&quot;geminiSectionCodeDesktop&quot;:&quot;a10bca9c-0c5d-4a02-ab13-14ab8513d81d&quot;,&quot;geminiSectionCodeMobile&quot;:&quot;ced63809-b609-4aca-96a0-abc099acba6b&quot;,&quot;currentPageType&quot;:null,&quot;currentPage&quot;:false,&quot;searchQuery&quot;:&quot;&quot;,&quot;tag&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;chrono&quot;:false,&quot;postId&quot;:&quot;&quot;,&quot;src&quot;:&quot;https:\/\/britishrobertty.tumblr.com\/195&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;https:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=3de94a184d600617102ddd5b48fb36e9&quot;,&quot;appInstallUrls&quot;:{&quot;android&quot;:&quot;https:\/\/play.google.com\/store\/apps\/details?id=com.tumblr\u0026referrer=utm_source%3Dtumblr%26utm_medium%3Diframe%26utm_campaign%3Dbn_continue_or_install_cta&quot;,&quot;ios&quot;:&quot;https:\/\/apps.apple.com\/app\/apple-store\/id305343404?pt=212308\u0026ct=bn_continue_or_install_cta\u0026mt=8&quot;},&quot;appOpenReferrer&quot;:&quot;bn_header_open_btn&quot;,&quot;isShowSearch&quot;:true,&quot;supplyLogging&quot;:[],&quot;secondsSinceLastActivity&quot;:-1,&quot;installUrlOpenFailed&quot;:{&quot;android&quot;:&quot;https:\/\/play.google.com\/store\/apps\/details?id=com.tumblr\u0026referrer=utm_source%3Dtumblr%26utm_medium%3Diframe%26utm_campaign%3Dbn_header_app_open_failed&quot;,&quot;ios&quot;:&quot;https:\/\/apps.apple.com\/app\/apple-store\/id305343404?pt=212308\u0026ct=bn_header_app_open_failed\u0026mt=8&quot;}}},&quot;Flags&quot;:{&quot;features&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwibW9iaWxlX3dlYl9nYXRlIjp0cnVlLCJzYWZlX21vZGUiOnRydWUsInNhZmVfbW9kZV9lbmFibGVkIjp0cnVlLCJrZXljb21tYW5kX2F1dG9fcGFnaW5hdGUiOnRydWUsImxvZ2dlZF9vdXRfc2VhcmNoIjp0cnVlLCJrcmFrZW5fd2ViX2xvZ2dpbmdfbGlicmFyeSI6dHJ1ZSwibGl2ZXBob3Rvc193ZWIiOnRydWUsInVzZXJfdGFnX2ZpbHRlcmluZyI6dHJ1ZSwicHJvamVjdF94X2FwcGVhbCI6dHJ1ZSwicHJvamVjdF94X3dlYl9zZW5zaXRpdmVfY292ZXJzIjp0cnVlLCJzYWZlX21vZGVfb3duX3Bvc3QiOnRydWUsIm1vYmlsZV93ZWJfcGhvdG9zZXRzIjp0cnVlLCJoaWRlX2RlZmF1bHRfaGVhZGVyc19ibG9nX2NhcmRzIjp0cnVlLCJub3RpZmljYXRpb25fcmVwbHlfbGlua190b19ub3RlcyI6dHJ1ZSwidHlwaW5nX2luZGljYXRvcl93cml0ZSI6dHJ1ZSwiZ2Rwcl9ndWNlX2lzX3JlcXVpcmVkIjp0cnVlLCJ0dW1ibHJfdmlkZW9fc3BvbnNvcmVkX2RheSI6dHJ1ZSwiY2FwdGNoYTp1c2VfcmVjYXB0Y2hhMiI6dHJ1ZSwibGl0dGxlX3Npc3RlciI6dHJ1ZSwibG9nX2xhZHkiOnRydWUsInJlZHBvcF9wb3N0X2Zvcm1fbW9iaWxlX2NyZWF0ZSI6dHJ1ZSwiZ2Rwcl9xdWFudGNhc3RfY21wIjp0cnVlLCJkYXJsYV9hZF9mZWVkYmFjayI6dHJ1ZSwic3RhdHVzX2luZGljYXRvciI6dHJ1ZSwiY29udmVyc2F0aW9uYWxfbm90aWZpY2F0aW9ucyI6dHJ1ZSwiZGlzYWJsZV95YWhvb19iX2Nvb2tpZSI6dHJ1ZSwibGl2ZXBob3RvcyI6dHJ1ZX0=&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1606250810000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;https:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;https:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;ru_RU&quot;,&quot;language_simple&quot;:&quot;ru&quot;,&quot;assets&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/&quot;},&quot;Translations&quot;:{&quot;OK&quot;:&quot;\u041e\u041a&quot;,&quot;Cancel&quot;:&quot;\u041e\u0442\u043c\u0435\u043d\u0430&quot;,&quot;Nevermind&quot;:&quot;\u041e\u0442\u043c\u0435\u043d\u0430&quot;,&quot;Ignore&quot;:&quot;\u0417\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c&quot;,&quot;Unfollow&quot;:&quot;\u041d\u0435 \u0447\u0438\u0442\u0430\u0442\u044c&quot;,&quot;Are you sure you want to unfollow %1$s?&quot;:&quot;\u0412\u044b \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u043e\u0442\u043c\u0435\u043d\u0438\u0442\u044c \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0443 \u043d\u0430 \u0431\u043b\u043e\u0433 %1$s?&quot;,&quot;Sorry, we seem to be having technical trouble.  Please try again later.&quot;:&quot;\u0412\u043e\u0437\u043d\u0438\u043a\u043b\u0438 \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043d\u0435\u043f\u043e\u043b\u0430\u0434\u043a\u0438. \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437 \u043f\u043e\u0437\u0436\u0435.&quot;,&quot;Follow&quot;:&quot;\u0427\u0438\u0442\u0430\u0442\u044c&quot;,&quot;Follow %1$s&quot;:&quot;\u0427\u0438\u0442\u0430\u0442\u044c %1$s&quot;,&quot;Put it back&quot;:&quot;\u0412\u0435\u0440\u043d\u0443\u0442\u044c \u0432\u0438\u0434\u0435\u043e\u043f\u043b\u0435\u0435\u0440&quot;,&quot;See all&quot;:&quot;\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0432\u0441\u0435&quot;,&quot;Block&quot;:&quot;\u0417\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c&quot;,&quot;%1$sAre you sure you want to block %2$s from %3$s?%4$sThey won&#039;t be able to follow %3$s, send %3$s messages, see %3$s in search results, or interact with any of %3$s&#039;s posts.%5$s&quot;:&quot;%1$s\u0412\u044b \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u0437\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044e %2$s \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u043b\u043e\u0433\u0443 %3$s?%4$s\u041e\u043d \u043d\u0435 \u0441\u043c\u043e\u0436\u0435\u0442 \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f \u043d\u0430 \u0431\u043b\u043e\u0433 %3$s, \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c \u0432 %3$s \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f, \u0432\u0438\u0434\u0435\u0442\u044c %3$s \u0432 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0430\u0445 \u043f\u043e\u0438\u0441\u043a\u0430 \u0438\u043b\u0438 \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0442\u044c \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0441 \u043f\u043e\u0441\u0442\u0430\u043c\u0438 %3$s.%5$s&quot;,&quot;%1$sBlock messages from this sender?%2$sAny further messages sent from their IP address will be blocked from your inbox. This can&#039;t be undone, by the way.%3$s&quot;:&quot;%1$s\u0417\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u043e\u0442 \u044d\u0442\u043e\u0433\u043e \u043e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u0435\u043b\u044f?%2$s\u0412\u0441\u0435 \u0434\u0430\u043b\u044c\u043d\u0435\u0439\u0448\u0438\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f, \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043d\u044b\u0435 \u0441 \u0435\u0433\u043e IP-\u0430\u0434\u0440\u0435\u0441\u0430, \u043d\u0435 \u043f\u043e\u043f\u0430\u0434\u0443\u0442 \u0432 \u0432\u0430\u0448\u0438 \u0432\u0445\u043e\u0434\u044f\u0449\u0438\u0435. \u0415\u0441\u043b\u0438 \u0447\u0442\u043e, \u044d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u043c\u043e\u0436\u043d\u043e \u043e\u0442\u043c\u0435\u043d\u0438\u0442\u044c.%3$s&quot;,&quot;Okay! We&#039;ll review the status of this and email you when we&#039;re done.&quot;:&quot;\u0425\u043e\u0440\u043e\u0448\u043e! \u041c\u044b \u043f\u0435\u0440\u0435\u0441\u043c\u043e\u0442\u0440\u0438\u043c \u0441\u0442\u0430\u0442\u0443\u0441  \u044d\u0442\u043e\u0433\u043e \u043f\u043e\u0441\u0442\u0430 \u0438 \u0441\u043e\u043e\u0431\u0449\u0438\u043c \u0432\u0430\u043c \u043f\u043e \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u0435 \u043e \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0435.&quot;,&quot;This is marked as sensitive content. If that seems like a mistake, you can request a review.&quot;:&quot;\u042d\u0442\u043e\u0442 \u043f\u043e\u0441\u0442 \u043f\u043e\u043c\u0435\u0447\u0435\u043d \u043a\u0430\u043a \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0449\u0438\u0439 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0434\u0435\u043b\u0438\u043a\u0430\u0442\u043d\u043e\u0433\u043e \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0430. \u0415\u0441\u043b\u0438 \u044d\u0442\u043e \u043e\u0448\u0438\u0431\u043a\u0430, \u043e\u0442\u043f\u0440\u0430\u0432\u044c\u0442\u0435 \u0437\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0443.&quot;,&quot;Request Review&quot;:&quot;\u0417\u0430\u043f\u0440\u043e\u0441\u0438\u0442\u044c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0443&quot;,&quot;This post is still marked as sensitive, but is currently being reviewed.&quot;:&quot;\u042d\u0442\u043e\u0442 \u043f\u043e\u0441\u0442 \u0432\u0441\u0435 \u0435\u0449\u0435 \u043f\u043e\u043c\u0435\u0447\u0435\u043d \u043a\u0430\u043a \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0449\u0438\u0439 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0434\u0435\u043b\u0438\u043a\u0430\u0442\u043d\u043e\u0433\u043e \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0430, \u043d\u043e \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0435.&quot;,&quot;After review, it was determined that this post contains sensitive content.&quot;:&quot;\u0410\u043d\u0430\u043b\u0438\u0437 \u043f\u043e\u043a\u0430\u0437\u0430\u043b, \u0447\u0442\u043e \u044d\u0442\u043e\u0442 \u043f\u043e\u0441\u0442 \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u0442 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0434\u0435\u043b\u0438\u043a\u0430\u0442\u043d\u043e\u0433\u043e \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0430.&quot;,&quot;This is marked as %1$ssensitive%2$s&quot;:&quot;\u041f\u043e\u043c\u0435\u0447\u0435\u043d\u043e \u043a\u0430\u043a %1$s\u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 \u0434\u0435\u043b\u0438\u043a\u0430\u0442\u043d\u043e\u0433\u043e \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0430%2$s&quot;,&quot;This Tumblr may contain sensitive media.&quot;:&quot;\u042d\u0442\u043e\u0442 \u0431\u043b\u043e\u0433 \u043c\u043e\u0436\u0435\u0442 \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u044c \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0434\u0435\u043b\u0438\u043a\u0430\u0442\u043d\u043e\u0433\u043e \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0430.&quot;,&quot;Sensitive posts are hidden. If you want to change that, disable Safe Mode in your settings.&quot;:&quot;\u041f\u043e\u0441\u0442\u044b \u0434\u0435\u043b\u0438\u043a\u0430\u0442\u043d\u043e\u0433\u043e \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0430 \u0441\u043a\u0440\u044b\u0442\u044b. \u0427\u0442\u043e\u0431\u044b \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u044d\u0442\u043e, \u0432\u044b\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u044b\u0439 \u0440\u0435\u0436\u0438\u043c \u0432 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430\u0445.&quot;,&quot;Hey, this post may contain adult content, so we&#039;ve hidden it from public view.&quot;:&quot;\u042d\u0442\u043e\u0442 \u043f\u043e\u0441\u0442 \u043c\u043e\u0436\u0435\u0442 \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u044c \u043a\u043e\u043d\u0442\u0435\u043d\u0442 \u0434\u043b\u044f \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u043c\u044b \u0441\u043a\u0440\u044b\u043b\u0438 \u0435\u0433\u043e \u043e\u0442 \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430.&quot;,&quot;Learn more&quot;:&quot;\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u0435\u0435&quot;,&quot;%1$sLearn more%2$s&quot;:&quot;%1$s\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u0435\u0435%2$s&quot;,&quot;Safe Mode is on&quot;:&quot;\u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u044b\u0439 \u0440\u0435\u0436\u0438\u043c \u0432\u043a\u043b\u044e\u0447\u0435\u043d&quot;,&quot;%1$sSafe mode is on%2$s&quot;:&quot;%1$s\u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u044b\u0439 \u0440\u0435\u0436\u0438\u043c \u0432\u043a\u043b\u044e\u0447\u0435\u043d%2$s&quot;,&quot;View this Tumblr&quot;:&quot;\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u044d\u0442\u043e\u0442 \u0431\u043b\u043e\u0433&quot;,&quot;This content contains adult content which violates our Community Guidelines.&quot;:&quot;\u042d\u0442\u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0432\u043a\u043b\u044e\u0447\u0430\u044e\u0442 \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 \u0434\u043b\u044f \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445, \u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u043d\u0430\u0440\u0443\u0448\u0430\u0435\u0442 \u043d\u0430\u0448\u0438 \u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430.&quot;,&quot;This post was flagged because we think it contains adult content which violates our Community Guidelines. It has been hidden from others, but not deleted. If you think this was done in error, tap Appeal and a real, live human will review it.&quot;:&quot;\u042d\u0442\u043e\u0442 \u043f\u043e\u0441\u0442 \u0431\u044b\u043b \u043f\u043e\u043c\u0435\u0447\u0435\u043d, \u043f\u043e\u0441\u043a\u043e\u043b\u044c\u043a\u0443 \u043c\u044b \u0441\u0447\u0438\u0442\u0430\u0435\u043c, \u0447\u0442\u043e \u043e\u043d \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u0442 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0434\u043b\u044f \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043d\u0430\u0440\u0443\u0448\u0430\u044e\u0442 \u043d\u0430\u0448\u0438 \u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430. \u041e\u043d \u0441\u043a\u0440\u044b\u0442 \u043e\u0442 \u0434\u0440\u0443\u0433\u0438\u0445 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439, \u043d\u043e \u043d\u0435 \u0443\u0434\u0430\u043b\u0435\u043d. \u0415\u0441\u043b\u0438 \u0432\u044b \u0441\u0447\u0438\u0442\u0430\u0435\u0442\u0435, \u0447\u0442\u043e \u044d\u0442\u043e \u0431\u044b\u043b\u043e \u0441\u0434\u0435\u043b\u0430\u043d\u043e \u043e\u0448\u0438\u0431\u043e\u0447\u043d\u043e, \u043d\u0430\u0436\u043c\u0438\u0442\u0435 \&quot;\u041e\u0431\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c\&quot;, \u0438 \u0440\u0435\u0430\u043b\u044c\u043d\u044b\u0439 \u0436\u0438\u0432\u043e\u0439 \u0447\u0435\u043b\u043e\u0432\u0435\u043a \u043f\u0440\u043e\u0432\u0435\u0440\u0438\u0442 \u0432\u0430\u0448 \u043f\u043e\u0441\u0442.&quot;,&quot;Your post is in content appeal. Once a decision has been made, we&#039;ll send you an email.&quot;:&quot;\u0412\u0430\u0448 \u043f\u043e\u0441\u0442 \u043f\u0440\u043e\u0432\u0435\u0440\u044f\u0435\u0442\u0441\u044f. \u041c\u044b \u043e\u0442\u043f\u0440\u0430\u0432\u0438\u043c \u0432\u0430\u043c \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442 \u043e\u0431\u0436\u0430\u043b\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u043e \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u0435, \u043a\u0430\u043a \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u043d \u0431\u0443\u0434\u0435\u0442 \u0433\u043e\u0442\u043e\u0432.&quot;,&quot;This post was flagged because it contains adult content which violates our Community Guidelines. It has not been deleted but is now only viewable to you. This decision cannot be appealed.&quot;:&quot;\u042d\u0442\u043e\u0442 \u043f\u043e\u0441\u0442 \u0432\u043a\u043b\u044e\u0447\u0430\u0435\u0442 \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 \u0434\u043b\u044f \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445, \u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u043d\u0430\u0440\u0443\u0448\u0430\u0435\u0442 \u043d\u0430\u0448\u0438 \u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430. \u041e\u043d \u043d\u0435 \u0443\u0434\u0430\u043b\u0435\u043d, \u043d\u043e \u0442\u043e\u043b\u044c\u043a\u043e \u0432\u044b \u0441\u043c\u043e\u0436\u0435\u0442\u0435 \u0439\u043e\u0433\u043e \u043f\u0440\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c. \u042d\u0442\u043e \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u043e\u043a\u043e\u043d\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0438 \u043d\u0435 \u043f\u043e\u0434\u043b\u0435\u0436\u0438\u0442 \u043e\u0431\u0436\u0430\u043b\u043e\u0432\u0430\u043d\u0438\u044e.&quot;,&quot;This post was flagged because somewhere in your reblog there might be adult content which is a violation of our Community Guidelines.&quot;:&quot;\u042d\u0442\u043e\u0442 \u043f\u043e\u0441\u0442 \u0431\u044b\u043b \u043f\u043e\u043c\u0435\u0447\u0435\u043d, \u043f\u043e\u0442\u043e\u043c\u0443 \u0447\u0442\u043e \u0432 \u0432\u0430\u0448\u0435\u043c \u0440\u0435\u0431\u043b\u043e\u0433\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 \u0434\u043b\u044f \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445, \u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u043d\u0430\u0440\u0443\u0448\u0430\u0435\u0442 \u043d\u0430\u0448\u0438 \u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430.&quot;,&quot;This reblog is in content appeal&quot;:&quot;\u042d\u0442\u043e\u0442 \u0440\u0435\u0431\u043b\u043e\u0433 \u043f\u0440\u043e\u0432\u0435\u0440\u044f\u0435\u0442\u0441\u044f&quot;,&quot;Your post is in content appeal&quot;:&quot;\u0412\u0430\u0448 \u043f\u043e\u0441\u0442 \u043f\u0440\u043e\u0432\u0435\u0440\u044f\u0435\u0442\u0441\u044f&quot;,&quot;This post was flagged because somewhere in your reblog there might be adult content.&quot;:&quot;\u042d\u0442\u043e\u0442 \u043f\u043e\u0441\u0442 \u0431\u044b\u043b \u043f\u043e\u043c\u0435\u0447\u0435\u043d, \u043f\u043e\u0442\u043e\u043c\u0443 \u0447\u0442\u043e \u0432 \u0432\u0430\u0448\u0435\u043c \u0440\u0435\u0431\u043b\u043e\u0433\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0435 \u0434\u043b\u044f \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445.&quot;,&quot;It looks like your post might be in violation of our Community Guidelines and is now hidden.&quot;:&quot;\u041f\u043e\u0445\u043e\u0436\u0435, \u0432\u0430\u0448 \u043f\u043e\u0441\u0442 \u043d\u0430\u0440\u0443\u0448\u0430\u0435\u0442 \u043d\u0430\u0448\u0438 \u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u0442\u0435\u043f\u0435\u0440\u044c \u043e\u043d \u0441\u043a\u0440\u044b\u0442.&quot;,&quot;Based on our Community Guidelines this post contains adult content and is now only viewable to you.&quot;:&quot;\u0412 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0438 \u0441 \u043d\u0430\u0448\u0438\u043c\u0438 \u041f\u0440\u0430\u0432\u0438\u043b\u0430\u043c\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430 \u044d\u0442\u043e\u0442 \u043f\u043e\u0441\u0442 \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u0442 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0434\u043b\u044f \u0432\u0437\u0440\u043e\u0441\u043b\u044b\u0445 \u0438 \u0442\u0435\u043f\u0435\u0440\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u0432\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0435\u0433\u043e \u043f\u0440\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c.&quot;,&quot;Your appeal was accepted! This post is no longer hidden.&quot;:&quot;\u0412\u0430\u0448\u0430 \u0436\u0430\u043b\u043e\u0431\u0430 \u043f\u0440\u0438\u043d\u044f\u0442\u0430! \u042d\u0442\u043e\u0442 \u043f\u043e\u0441\u0442 \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0441\u043a\u0440\u044b\u0442.&quot;,&quot;Dismiss&quot;:&quot;\u041f\u0440\u043e\u043f\u0443\u0441\u0442\u0438\u0442\u044c&quot;,&quot;Appeal&quot;:&quot;\u041e\u0431\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c&quot;,&quot;This post contains filtered tags&quot;:&quot;\u042d\u0442\u043e\u0442 \u043f\u043e\u0441\u0442 \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u0442 \u043e\u0442\u0444\u0438\u043b\u044c\u0442\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0442\u0435\u0433\u0438&quot;,&quot;Are you sure you want to log out?&quot;:&quot;\u0412\u044b \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u0432\u044b\u0439\u0442\u0438?&quot;,&quot;Likes&quot;:&quot;\u041f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u043e\u0441\u044c&quot;,&quot;Following&quot;:&quot;\u0427\u0438\u0442\u0430\u044e&quot;,&quot;Blogs&quot;:&quot;\u0411\u043b\u043e\u0433\u0438&quot;,&quot;New&quot;:&quot;\u0421\u043e\u0437\u0434\u0430\u0442\u044c \u0431\u043b\u043e\u0433&quot;,&quot;Account&quot;:&quot;\u0423\u0447\u0435\u0442\u043d\u0430\u044f \u0437\u0430\u043f\u0438\u0441\u044c&quot;,&quot;Settings&quot;:&quot;\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438&quot;,&quot;Help&quot;:&quot;\u0421\u043f\u0440\u0430\u0432\u043a\u0430&quot;,&quot;Log out&quot;:&quot;\u0412\u044b\u0439\u0442\u0438&quot;,&quot;Posts&quot;:&quot;\u041f\u043e\u0441\u0442\u044b&quot;,&quot;Reach&quot;:&quot;\u0414\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u044f&quot;,&quot;Followers&quot;:&quot;\u0427\u0438\u0442\u0430\u0442\u0435\u043b\u0438&quot;,&quot;Activity&quot;:&quot;\u0410\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c&quot;,&quot;Members&quot;:&quot;\u0423\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0438&quot;,&quot;Drafts&quot;:&quot;\u0427\u0435\u0440\u043d\u043e\u0432\u0438\u043a\u0438&quot;,&quot;Queue&quot;:&quot;\u041e\u0447\u0435\u0440\u0435\u0434\u044c&quot;,&quot;Processing&quot;:&quot;\u041e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430&quot;,&quot;Review flagged posts&quot;:&quot;\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u043f\u043e\u043c\u0435\u0447\u0435\u043d\u043d\u044b\u0435 \u043f\u043e\u0441\u0442\u044b&quot;,&quot;Analytics&quot;:&quot;\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430&quot;,&quot;Sponsor&quot;:&quot;\u0421\u043f\u043e\u043d\u0441\u043e\u0440&quot;,&quot;Sponsored&quot;:&quot;\u0421\u043f\u043e\u043d\u0441\u0438\u0440\u0443\u0435\u0442\u0441\u044f&quot;,&quot;About Tumblr Ads&quot;:&quot;\u041e \u0440\u0435\u043a\u043b\u0430\u043c\u0435 \u0432 Tumblr&quot;,&quot;Edit appearance&quot;:&quot;\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435&quot;,&quot;Your blog info, account info, and recent activity are in these menus.&quot;:&quot;\u0412 \u044d\u0442\u0438\u0445 \u043c\u0435\u043d\u044e \u2014 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e \u0431\u043b\u043e\u0433\u0435, \u0443\u0447\u0435\u0442\u043d\u043e\u0439 \u0437\u0430\u043f\u0438\u0441\u0438 \u0438 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438.&quot;,&quot;Wait, why?&quot;:&quot;\u041d\u043e \u043f\u043e\u0447\u0435\u043c\u0443?&quot;,&quot;Okay, phew&quot;:&quot;\u0424\u0443\u0445! \u041e\u041a&quot;,&quot;Why?&quot;:&quot;\u0427\u0442\u043e \u043c\u044b \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u043c?&quot;,&quot;It&#039;s so you never have to scroll to the top of the dashboard to access this stuff.&quot;:&quot;\u0427\u0442\u043e\u0431\u044b \u0432\u0430\u043c \u043d\u0435 \u043f\u0440\u0438\u0445\u043e\u0434\u0438\u043b\u043e\u0441\u044c \u0432\u043e\u0437\u0432\u0440\u0430\u0449\u0430\u0442\u044c\u0441\u044f \u043d\u0430\u0432\u0435\u0440\u0445 \u043b\u0435\u043d\u0442\u044b \u0434\u043b\u044f \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u043a \u044d\u0442\u0438\u043c \u0434\u0430\u043d\u043d\u044b\u043c.&quot;,&quot;Ohhh&quot;:&quot;\u0410\u0430\u0430, \u043f\u043e\u043d\u044f\u0442\u043d\u043e&quot;,&quot;Loading\u2026&quot;:&quot;\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430\u2026&quot;,&quot;%1$s notes&quot;:&quot;\u0417\u0430\u043c\u0435\u0442\u043e\u043a: %1$s&quot;,&quot;%1$s note&quot;:&quot;%1$s \u0437\u0430\u043c\u0435\u0442\u043a\u0430&quot;,&quot;%1$s views&quot;:&quot;\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u043e\u0432: %1$s&quot;,&quot;%1$s view&quot;:&quot;%1$s \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440&quot;,&quot;%1$s added this GIF to a post&quot;:&quot;%1$s \u0434\u043e\u0431\u0430\u0432\u0438\u043b(\u0430) \u044d\u0442\u0443 GIF-\u043a\u0443 \u0432 \u043f\u043e\u0441\u0442&quot;,&quot;%1$s posted this&quot;:&quot;%1$s \u044d\u0442\u043e \u043e\u043f\u0443\u0431\u043b\u0438\u043a\u043e\u0432\u0430\u043b(\u0430)&quot;,&quot;%1$s%2$s likes%3$s&quot;:&quot;%1$s%2$s \u041d\u0440\u0430\u0432\u0438\u0442\u0441\u044f%3$s&quot;,&quot;%1$s%2$s like%3$s&quot;:&quot;%1$s%2$s \u041d\u0440\u0430\u0432\u0438\u0442\u0441\u044f%3$s&quot;,&quot;%1$s%2$s reblogs%3$s&quot;:&quot;%1$s\u0420\u0435\u0431\u043b\u043e\u0433\u043e\u0432: %2$s%3$s&quot;,&quot;%1$s%2$s reblog%3$s&quot;:&quot;%1$s\u0420\u0435\u0431\u043b\u043e\u0433\u043e\u0432: %2$s%3$s&quot;,&quot;%1$s%2$s likes%3$s and %4$s%5$s reblogs%3$s&quot;:&quot;%1$s%2$s \u041d\u0440\u0430\u0432\u0438\u0442\u0441\u044f%3$s, %4$s\u0440\u0435\u0431\u043b\u043e\u0433\u043e\u0432: %5$s%3$s&quot;,&quot;%1$s%2$s likes%3$s and %4$s%5$s reblog%3$s&quot;:&quot;%1$s%2$s \u041d\u0440\u0430\u0432\u0438\u0442\u0441\u044f%3$s, %4$s%5$s \u0440\u0435\u0431\u043b\u043e\u0433%3$s&quot;,&quot;%1$s%2$s like%3$s and %4$s%5$s reblogs%3$s&quot;:&quot;%1$s%2$s \u041d\u0440\u0430\u0432\u0438\u0442\u0441\u044f%3$s, %4$s\u0440\u0435\u0431\u043b\u043e\u0433\u043e\u0432: %5$s%3$s&quot;,&quot;Reply&quot;:&quot;\u041e\u0442\u0432\u0435\u0442\u0438\u0442\u044c&quot;,&quot;Add to the discussion&quot;:&quot;\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043a \u043e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u044e&quot;,&quot;Unleash a compliment&quot;:&quot;\u0421\u0434\u0435\u043b\u0430\u0439\u0442\u0435 \u043a\u043e\u043c\u043f\u043b\u0438\u043c\u0435\u043d\u0442&quot;,&quot;Have something to say?&quot;:&quot;\u0425\u043e\u0442\u0438\u0442\u0435 \u0447\u0442\u043e-\u0442\u043e \u0441\u043a\u0430\u0437\u0430\u0442\u044c?&quot;,&quot;Reply your heart out&quot;:&quot;\u041e\u0442\u0432\u0435\u0442\u044c\u0442\u0435 \u043e\u0442 \u0432\u0441\u0435\u0439 \u0434\u0443\u0448\u0438&quot;,&quot;Add something wonderful&quot;:&quot;\u0414\u043e\u0431\u0430\u0432\u044c\u0442\u0435 \u0447\u0442\u043e-\u0442\u043e \u0447\u0443\u0434\u0435\u0441\u043d\u043e\u0435&quot;,&quot;Send something nice&quot;:&quot;\u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u0447\u0442\u043e-\u0442\u043e \u043f\u0440\u0438\u044f\u0442\u043d\u043e\u0435&quot;,&quot;Your words here&quot;:&quot;\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0441\u0432\u043e\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435&quot;,&quot;Say your thing&quot;:&quot;\u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u0447\u0442\u043e-\u043d\u0438\u0431\u0443\u0434\u044c&quot;,&quot;Block %1$s&quot;:&quot;\u0417\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c %1$s&quot;,&quot;Report&quot;:&quot;\u041f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c\u0441\u044f&quot;,&quot;%1$sReport %2$s&#039;s post?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$s\u0425\u043e\u0442\u0438\u0442\u0435 \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u043d\u0430 \u0440\u0435\u0431\u043b\u043e\u0433 \u0432 %2$s?%3$s\u0415\u0441\u043b\u0438 \u043e\u043d \u043d\u0430\u0440\u0443\u0448\u0430\u0435\u0442 \u043d\u0430\u0448\u0438 \u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430, \u043c\u044b \u0443\u0434\u0430\u043b\u0438\u043c \u0435\u0433\u043e.%4$s&quot;,&quot;%1$sReport %2$s&#039;s reply?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$s\u0425\u043e\u0442\u0438\u0442\u0435 \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u043d\u0430 \u0440\u0435\u0431\u043b\u043e\u0433 \u0432 %2$s?%3$s\u0415\u0441\u043b\u0438 \u043e\u043d \u043d\u0430\u0440\u0443\u0448\u0430\u0435\u0442 \u043d\u0430\u0448\u0438 \u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430, \u043c\u044b \u0443\u0434\u0430\u043b\u0438\u043c \u0435\u0433\u043e.%4$s&quot;,&quot;Hide note&quot;:&quot;\u0421\u043a\u0440\u044b\u0442\u044c \u0437\u0430\u043c\u0435\u0442\u043a\u0443&quot;,&quot;Delete reply&quot;:&quot;\u0423\u0434\u0430\u043b\u0438\u0442\u044c \u043e\u0442\u0432\u0435\u0442&quot;,&quot;%1$sYou definitely want to hide this note?%2$s&quot;:&quot;%1$s\u0412\u044b \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u0441\u043a\u0440\u044b\u0442\u044c \u044d\u0442\u0443 \u0437\u0430\u043c\u0435\u0442\u043a\u0443?%2$s&quot;,&quot;%1$sYou definitely want to delete this reply?%2$s&quot;:&quot;%1$s\u0412\u044b \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u0443\u0434\u0430\u043b\u0438\u0442\u044c \u044d\u0442\u043e\u0442 \u043e\u0442\u0432\u0435\u0442?%2$s&quot;,&quot;Hide it&quot;:&quot;\u0421\u043a\u0440\u044b\u0442\u044c&quot;,&quot;Delete it&quot;:&quot;\u0423\u0434\u0430\u043b\u0438\u0442\u044c&quot;}}"></noscript><script src="https://assets.tumblr.com/client/prod/standalone/tumblelog/index.build.js?_v=8e439ccd7386182faae0d4b2ba2f41f4"></script></body></html>
